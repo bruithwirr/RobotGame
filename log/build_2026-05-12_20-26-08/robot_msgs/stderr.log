@@ -1,0 +1,35 @@
+/usr/bin/ld: CMakeFiles/robot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_c.c.o: in function `robot_msgs__msg__game_state__create_ros_message':
+_robot_msgs_s.ep.rosidl_typesupport_c.c:(.text+0x2db): undefined reference to `robot_msgs__msg__GameState__create'
+/usr/bin/ld: CMakeFiles/robot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_c.c.o: in function `robot_msgs__msg__game_state__destroy_ros_message':
+_robot_msgs_s.ep.rosidl_typesupport_c.c:(.text+0x301): undefined reference to `robot_msgs__msg__GameState__destroy'
+/usr/bin/ld: CMakeFiles/robot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_c.c.o: in function `_register_msg_type__msg__game_state':
+_robot_msgs_s.ep.rosidl_typesupport_c.c:(.text+0x409): undefined reference to `robot_msgs__msg__game_state__convert_from_py'
+/usr/bin/ld: _robot_msgs_s.ep.rosidl_typesupport_c.c:(.text+0x477): undefined reference to `robot_msgs__msg__game_state__convert_to_py'
+/usr/bin/ld: _robot_msgs_s.ep.rosidl_typesupport_c.c:(.text+0x4db): undefined reference to `rosidl_typesupport_c__get_message_type_support_handle__robot_msgs__msg__GameState'
+/usr/bin/ld: CMakeFiles/robot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o: in function `robot_msgs__msg__game_state__create_ros_message':
+_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c:(.text+0x2db): undefined reference to `robot_msgs__msg__GameState__create'
+/usr/bin/ld: CMakeFiles/robot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o: in function `robot_msgs__msg__game_state__destroy_ros_message':
+_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c:(.text+0x301): undefined reference to `robot_msgs__msg__GameState__destroy'
+/usr/bin/ld: CMakeFiles/robot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o: in function `_register_msg_type__msg__game_state':
+_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c:(.text+0x409): undefined reference to `robot_msgs__msg__game_state__convert_from_py'
+/usr/bin/ld: _robot_msgs_s.ep.rosidl_typesupport_introspection_c.c:(.text+0x477): undefined reference to `robot_msgs__msg__game_state__convert_to_py'
+/usr/bin/ld: _robot_msgs_s.ep.rosidl_typesupport_introspection_c.c:(.text+0x4db): undefined reference to `rosidl_typesupport_c__get_message_type_support_handle__robot_msgs__msg__GameState'
+collect2: error: ld returned 1 exit status
+/usr/bin/ld: CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o: in function `robot_msgs__msg__game_state__create_ros_message':
+_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c:(.text+0x2db): undefined reference to `robot_msgs__msg__GameState__create'
+/usr/bin/ld: CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o: in function `robot_msgs__msg__game_state__destroy_ros_message':
+_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c:(.text+0x301): undefined reference to `robot_msgs__msg__GameState__destroy'
+/usr/bin/ld: CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o: in function `_register_msg_type__msg__game_state':
+_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c:(.text+0x409): undefined reference to `robot_msgs__msg__game_state__convert_from_py'
+/usr/bin/ld: _robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c:(.text+0x477): undefined reference to `robot_msgs__msg__game_state__convert_to_py'
+/usr/bin/ld: _robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c:(.text+0x4db): undefined reference to `rosidl_typesupport_c__get_message_type_support_handle__robot_msgs__msg__GameState'
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/robot_msgs__rosidl_typesupport_c__pyext.dir/build.make:105: rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:583: CMakeFiles/robot_msgs__rosidl_typesupport_c__pyext.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/robot_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make:107: rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:554: CMakeFiles/robot_msgs__rosidl_typesupport_introspection_c__pyext.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:110: rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:524: CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

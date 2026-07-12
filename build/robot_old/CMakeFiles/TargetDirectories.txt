@@ -1,0 +1,9 @@
+/home/bruithwirr/uni/ros2_ws/build/robot_old/CMakeFiles/uninstall.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_old/CMakeFiles/robot_old_uninstall.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_old/CMakeFiles/test.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_old/CMakeFiles/edit_cache.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_old/CMakeFiles/rebuild_cache.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_old/CMakeFiles/list_install_components.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_old/CMakeFiles/install.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_old/CMakeFiles/install/local.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_old/CMakeFiles/install/strip.dir

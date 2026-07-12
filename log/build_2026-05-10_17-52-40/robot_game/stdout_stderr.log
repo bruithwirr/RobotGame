@@ -1,0 +1,50 @@
+[35m[1mConsolidate compiler generated dependencies of target keyboard_node[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_node[0m
+[ 25%] Built target keyboard_node
+[ 37%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/RobotNode.cpp.o[0m
+In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/RobotNode.h:7[m[K,
+                 from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:1[m[K:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:25:84:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kgeometry::RobotState::velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   25 |         geometry::RobotState initial_state = geometry::RobotState{200.0, 200.0, 0.0[01;35m[K}[m[K,
+      |                                                                                    [01;35m[K^[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:[m[K In constructor ‘[01m[KRobotNode::RobotNode(int)[m[K’:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:27:47:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kgeometry::RobotState::velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   27 |         geometry::RobotState{200.0, 200.0, 0.0[01;35m[K}[m[K,
+      |                                               [01;35m[K^[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:[m[K In member function ‘[01m[Kvoid RobotNode::publishState()[m[K’:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct robot_msgs::msg::RobotState_<std::allocator<void> >[m[K’ has no member named ‘[01m[Krobot_id[m[K’
+   56 |     msg.[01;31m[Krobot_id[m[K         = robot_id_;
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/RobotNode.h:3[m[K,
+                 from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = environment::Environment; _Args = {const char (&)[65], double}; _Tp = environment::Environment][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = environment::Environment; _Args = {const char (&)[65], double}; _Tp = environment::Environment; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<environment::Environment>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[65], double}; _Tp = environment::Environment; _Alloc = std::allocator<environment::Environment>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = environment::Environment; _Alloc = std::allocator<environment::Environment>; _Args = {const char (&)[65], double}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<environment::Environment>; _Args = {const char (&)[65], double}; _Tp = environment::Environment; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<environment::Environment>; _Args = {const char (&)[65], double}; _Tp = environment::Environment][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = environment::Environment; _Alloc = std::allocator<environment::Environment>; _Args = {const char (&)[65], double}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = environment::Environment; _Args = {const char (&)[65], double}][m[K’
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:10:54:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kenvironment::Environment::Environment(const char [65], double)[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/RobotNode.h:6[m[K,
+                 from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:1[m[K:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:15:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kenvironment::Environment::Environment(const environment::Config&)[m[K’
+   15 |     explicit [01;36m[KEnvironment[m[K(const Config& config);
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:15:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:13:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kenvironment::Environment::Environment(const environment::Environment&)[m[K’
+   13 | class [01;36m[KEnvironment[m[K {
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:13:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:13:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kenvironment::Environment::Environment(environment::Environment&&)[m[K’
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:13:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/robot_node.dir/build.make:76: CMakeFiles/robot_node.dir/src/RobotNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

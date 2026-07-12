@@ -1,0 +1,276 @@
+[0.270s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.270s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x708ecf4276a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x708ecf4271c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x708ecf4271c0>>)
+[0.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.561s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bruithwirr/uni/ros2_ws'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_game) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_game) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_game) by extension 'ignore_ament_install'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_game) by extensions ['colcon_pkg']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_game) by extension 'colcon_pkg'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_game) by extensions ['colcon_meta']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_game) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_game) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_game) by extension 'ros'
+[0.583s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_game' with type 'ros.ament_cmake' and name 'robot_game'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extension 'ignore_ament_install'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extensions ['colcon_pkg']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_msgs) by extension 'ros'
+[0.585s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_msgs' with type 'ros.ament_cmake' and name 'robot_msgs'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_old) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_old) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_old) by extension 'ignore_ament_install'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_old) by extensions ['colcon_pkg']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_old) by extension 'colcon_pkg'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_old) by extensions ['colcon_meta']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_old) by extension 'colcon_meta'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_old) by extensions ['ros']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_old) by extension 'ros'
+[0.587s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_old' with type 'ros.ament_cmake' and name 'robot_old'
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.624s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/bruithwirr/uni/ros2_ws/install
+[0.625s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/bruithwirr/ros2_ws/install
+[0.627s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'robot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.691s] DEBUG:colcon.colcon_core.verb:Building package 'robot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bruithwirr/uni/ros2_ws/build/robot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bruithwirr/uni/ros2_ws/install/robot_msgs', 'merge_install': False, 'path': '/home/bruithwirr/uni/ros2_ws/src/robot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_old' build argument 'cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_old' build argument 'cmake_target' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_old' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_old' build argument 'cmake_clean_cache' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_old' build argument 'cmake_clean_first' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_old' build argument 'cmake_force_configure' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_old' build argument 'ament_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_old' build argument 'catkin_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_old' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.692s] DEBUG:colcon.colcon_core.verb:Building package 'robot_old' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bruithwirr/uni/ros2_ws/build/robot_old', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bruithwirr/uni/ros2_ws/install/robot_old', 'merge_install': False, 'path': '/home/bruithwirr/uni/ros2_ws/src/robot_old', 'symlink_install': False, 'test_result_base': None}
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_game' build argument 'cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_game' build argument 'cmake_target' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_game' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_game' build argument 'cmake_clean_cache' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_game' build argument 'cmake_clean_first' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_game' build argument 'cmake_force_configure' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_game' build argument 'ament_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_game' build argument 'catkin_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'robot_game' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.692s] DEBUG:colcon.colcon_core.verb:Building package 'robot_game' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bruithwirr/uni/ros2_ws/build/robot_game', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bruithwirr/uni/ros2_ws/install/robot_game', 'merge_install': False, 'path': '/home/bruithwirr/uni/ros2_ws/src/robot_game', 'symlink_install': False, 'test_result_base': None}
+[0.693s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.694s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.694s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bruithwirr/uni/ros2_ws/src/robot_msgs' with build type 'ament_cmake'
+[0.694s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bruithwirr/uni/ros2_ws/src/robot_msgs'
+[0.702s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.702s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.702s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.707s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bruithwirr/uni/ros2_ws/src/robot_old' with build type 'ament_cmake'
+[0.708s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bruithwirr/uni/ros2_ws/src/robot_old'
+[0.708s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.708s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_msgs -- -j12 -l12
+[0.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_old': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_old -- -j12 -l12
+[0.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_old' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_old -- -j12 -l12
+[0.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_old': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_old
+[0.842s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_old)
+[0.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_old' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_old
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_old' for CMake module files
+[0.851s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_old' for CMake config files
+[0.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_old', 'cmake_prefix_path')
+[0.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/hook/cmake_prefix_path.ps1'
+[0.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/hook/cmake_prefix_path.dsv'
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/hook/cmake_prefix_path.sh'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_old/bin'
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_old/lib/pkgconfig/robot_old.pc'
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_old/lib/python3.10/site-packages'
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_old/bin'
+[0.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/package.ps1'
+[0.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/package.dsv'
+[0.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/package.sh'
+[0.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/package.bash'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/package.zsh'
+[0.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bruithwirr/uni/ros2_ws/install/robot_old/share/colcon-core/packages/robot_old)
+[0.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_old)
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_old' for CMake module files
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_old' for CMake config files
+[0.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_old', 'cmake_prefix_path')
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/hook/cmake_prefix_path.ps1'
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/hook/cmake_prefix_path.dsv'
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/hook/cmake_prefix_path.sh'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_old/bin'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_old/lib/pkgconfig/robot_old.pc'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_old/lib/python3.10/site-packages'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_old/bin'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/package.ps1'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/package.dsv'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/package.sh'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/package.bash'
+[0.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/package.zsh'
+[0.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bruithwirr/uni/ros2_ws/install/robot_old/share/colcon-core/packages/robot_old)
+[1.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_msgs -- -j12 -l12
+[1.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_msgs
+[1.311s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_msgs)
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_msgs' for CMake module files
+[1.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_msgs
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_msgs' for CMake config files
+[1.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_msgs', 'cmake_prefix_path')
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.dsv'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.sh'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib'
+[1.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_msgs', 'ld_library_path_lib')
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.ps1'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.sh'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/bin'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib/pkgconfig/robot_msgs.pc'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib/python3.10/site-packages'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/bin'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/package.ps1'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/package.dsv'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/package.sh'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/package.bash'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/package.zsh'
+[1.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/colcon-core/packages/robot_msgs)
+[1.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_msgs)
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_msgs' for CMake module files
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_msgs' for CMake config files
+[1.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_msgs', 'cmake_prefix_path')
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.ps1'
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.dsv'
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/hook/cmake_prefix_path.sh'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib'
+[1.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_msgs', 'ld_library_path_lib')
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.ps1'
+[1.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.dsv'
+[1.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/hook/ld_library_path_lib.sh'
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/bin'
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib/pkgconfig/robot_msgs.pc'
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib/python3.10/site-packages'
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/bin'
+[1.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/package.ps1'
+[1.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/package.dsv'
+[1.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/package.sh'
+[1.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/package.bash'
+[1.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/package.zsh'
+[1.333s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/colcon-core/packages/robot_msgs)
+[1.333s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bruithwirr/uni/ros2_ws/src/robot_game' with build type 'ament_cmake'
+[1.333s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bruithwirr/uni/ros2_ws/src/robot_game'
+[1.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[1.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '0': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[1.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_game
+[1.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_game)
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_game' for CMake module files
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '0': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_game
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_game' for CMake config files
+[1.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_game', 'cmake_prefix_path')
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/hook/cmake_prefix_path.ps1'
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/hook/cmake_prefix_path.dsv'
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/hook/cmake_prefix_path.sh'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_game/lib'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_game/bin'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/pkgconfig/robot_game.pc'
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/python3.10/site-packages'
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_game/bin'
+[1.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.ps1'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.dsv'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.sh'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.bash'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.zsh'
+[1.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bruithwirr/uni/ros2_ws/install/robot_game/share/colcon-core/packages/robot_game)
+[1.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_game)
+[1.516s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_game' for CMake module files
+[1.516s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_game' for CMake config files
+[1.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_game', 'cmake_prefix_path')
+[1.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/hook/cmake_prefix_path.ps1'
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/hook/cmake_prefix_path.dsv'
+[1.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/hook/cmake_prefix_path.sh'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_game/lib'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_game/bin'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/pkgconfig/robot_game.pc'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/python3.10/site-packages'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/bruithwirr/uni/ros2_ws/install/robot_game/bin'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.ps1'
+[1.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.dsv'
+[1.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.sh'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.bash'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.zsh'
+[1.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bruithwirr/uni/ros2_ws/install/robot_game/share/colcon-core/packages/robot_game)
+[1.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.524s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.532s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.533s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.550s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.551s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bruithwirr/uni/ros2_ws/install/local_setup.ps1'
+[1.553s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bruithwirr/uni/ros2_ws/install/_local_setup_util_ps1.py'
+[1.555s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bruithwirr/uni/ros2_ws/install/setup.ps1'
+[1.557s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bruithwirr/uni/ros2_ws/install/local_setup.sh'
+[1.558s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bruithwirr/uni/ros2_ws/install/_local_setup_util_sh.py'
+[1.559s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bruithwirr/uni/ros2_ws/install/setup.sh'
+[1.560s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bruithwirr/uni/ros2_ws/install/local_setup.bash'
+[1.561s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bruithwirr/uni/ros2_ws/install/setup.bash'
+[1.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bruithwirr/uni/ros2_ws/install/local_setup.zsh'
+[1.563s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bruithwirr/uni/ros2_ws/install/setup.zsh'

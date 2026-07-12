@@ -1,0 +1,14 @@
+/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/uninstall.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/robot_game_uninstall.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/keyboard_node.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/robot_node.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/game_node.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/bot_node.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/lidar_node.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/test.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/edit_cache.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/rebuild_cache.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/list_install_components.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/install.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/install/local.dir
+/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/install/strip.dir

@@ -1,0 +1,24 @@
+[0.013s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': AMENT_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target keyboard_node[0m
+[0.104s] [ 27%] Built target game_node
+[0.104s] [ 81%] Built target robot_node
+[0.108s] [ 90%] [32mBuilding CXX object CMakeFiles/keyboard_node.dir/src/KeyboardNode.cpp.o[0m
+[2.992s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:[m[K In member function ‘[01m[Kvoid KeyboardNode::timerCallback()[m[K’:
+[2.992s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:40:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg1[m[K’ was not declared in this scope; did you mean ‘[01m[Kmsg[m[K’?
+[2.992s]    40 |                 [01;31m[Kmsg1[m[K.linear.x =  70.0; send1 = true; break;
+[2.992s]       |                 [01;31m[K^~~~[m[K
+[2.992s]       |                 [32m[Kmsg[m[K
+[2.998s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:40:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend1[m[K’ was not declared in this scope
+[2.998s]    40 |                 msg1.linear.x =  70.0; [01;31m[Ksend1[m[K = true; break;
+[2.998s]       |                                        [01;31m[K^~~~~[m[K
+[3.003s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:50:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg2[m[K’ was not declared in this scope; did you mean ‘[01m[Kmsg[m[K’?
+[3.003s]    50 |                 [01;31m[Kmsg2[m[K.linear.x =  70.0; send2 = true; break;
+[3.003s]       |                 [01;31m[K^~~~[m[K
+[3.003s]       |                 [32m[Kmsg[m[K
+[3.009s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:50:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend2[m[K’ was not declared in this scope
+[3.009s]    50 |                 msg2.linear.x =  70.0; [01;31m[Ksend2[m[K = true; break;
+[3.009s]       |                                        [01;31m[K^~~~~[m[K
+[3.988s] gmake[2]: *** [CMakeFiles/keyboard_node.dir/build.make:76: CMakeFiles/keyboard_node.dir/src/KeyboardNode.cpp.o] Error 1
+[3.988s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/keyboard_node.dir/all] Error 2
+[3.989s] gmake: *** [Makefile:146: all] Error 2
+[3.993s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '2': AMENT_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12

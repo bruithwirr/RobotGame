@@ -1,0 +1,62 @@
+[0.014s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.106s] [ 15%] Built target keyboard_node
+[0.112s] [ 69%] Built target robot_node
+[0.123s] [ 76%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/GameNode.cpp.o[0m
+[4.037s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:1[m[K:
+[4.037s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/GameNode.h:26:43:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[4.038s]    26 |     void onBotToggle(const std_msgs::msg::[01;31m[KBool[m[K::SharedPtr msg);
+[4.038s]       |                                           [01;31m[K^~~~[m[K
+[4.038s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/GameNode.h:26:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[4.038s]    26 |     void onBotToggle(const std_msgs::msg::Bool::SharedPtr [01;31m[Kmsg[m[K);
+[4.038s]       |                                                           [01;31m[K^~~[m[K
+[4.038s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/GameNode.h:26:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[4.038s]    26 |     void onBotToggle[34m[K([m[Kconst std_msgs::msg::Bool::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K);
+[4.038s]       |                     [34m[K~[m[K                                    [01;31m[K^[m[K[32m[K~~~[m[K
+[4.038s]       |                                                          [32m[K)[m[K
+[4.038s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/GameNode.h:26:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.038s]    26 |     void onBotToggle(const std_msgs::msg::Bool::[01;31m[KSharedPtr[m[K msg);
+[4.039s]       |                                                 [01;31m[K^~~~~~~~~[m[K
+[4.039s]       |                                                          [32m[K;[m[K
+[4.039s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/GameNode.h:26:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[4.039s]    26 |     void onBotToggle(const std_msgs::msg::Bool::SharedPtr [01;31m[Kmsg[m[K);
+[4.039s]       |                                                           [01;31m[K^~~[m[K
+[4.196s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:84:49:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[4.196s]    84 | void GameNode::onBotToggle(const std_msgs::msg::[01;31m[KBool[m[K::SharedPtr)
+[4.196s]       |                                                 [01;31m[K^~~~[m[K
+[4.197s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:84:64:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[4.197s]    84 | void GameNode::onBotToggle(const std_msgs::msg::Bool::SharedPtr[01;31m[K)[m[K
+[4.197s]       |                                                                [01;31m[K^[m[K
+[5.797s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:39[m[K,
+[5.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.798s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/GameNode.h:3[m[K,
+[5.798s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:1[m[K:
+[5.798s] /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of ‘[01m[Kstruct rclcpp::function_traits::function_traits<std::_Bind<void (GameNode::*(GameNode*, std::_Placeholder<1>))(...)> >[m[K’:
+[5.798s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:380:10:[m[K   recursively required by substitution of ‘[01m[Ktemplate<class MessageT, class CallbackT> struct rclcpp::detail::SubscriptionCallbackTypeHelper<MessageT, CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>, const rclcpp::MessageInfo&)> >::value, void>::type> [with MessageT = std_msgs::msg::Empty_<std::allocator<void> >; CallbackT = std::_Bind<void (GameNode::*(GameNode*, std::_Placeholder<1>))(...)>][m[K’
+[5.798s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:380:10:[m[K   required from ‘[01m[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (GameNode::*(GameNode*, std::_Placeholder<1>))(...)>; MessageT = std_msgs::msg::Empty_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[5.798s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:[m[K   required from ‘[01m[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = std_msgs::msg::Empty_<std::allocator<void> >; CallbackT = std::_Bind<void (GameNode::*(GameNode*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Empty_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Empty_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = std_msgs::msg::Empty_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Empty_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[5.798s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Empty_<std::allocator<void> >; CallbackT = std::_Bind<void (GameNode::*(GameNode*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Empty_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Empty_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = std_msgs::msg::Empty_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Empty_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[5.798s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Empty_<std::allocator<void> >; CallbackT = std::_Bind<void (GameNode::*(GameNode*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Empty_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Empty_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Empty_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[5.798s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::Empty_<std::allocator<void> >; CallbackT = std::_Bind<void (GameNode::*(GameNode*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::Empty_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Empty_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::Empty_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[5.798s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:55:70:[m[K   required from here
+[5.798s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+[5.798s]    51 |   using [01;31m[Karguments[m[K = typename tuple_tail<
+[5.799s]       |         [01;31m[K^~~~~~~~~[m[K
+[5.799s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+[5.799s]    57 |   using [01;31m[Kargument_type[m[K = typename std::tuple_element<N, arguments>::type;
+[5.799s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[5.799s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+[5.799s]    59 |   using [01;31m[Kreturn_type[m[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;
+[5.799s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[9.452s] gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/GameNode.cpp.o] Error 1
+[9.452s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/game_node.dir/all] Error 2
+[9.453s] gmake: *** [Makefile:146: all] Error 2
+[9.456s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '2': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12

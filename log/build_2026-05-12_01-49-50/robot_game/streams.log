@@ -1,0 +1,19 @@
+[0.009s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': AMENT_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.072s] [ 20%] Built target keyboard_node
+[0.075s] [ 80%] Built target robot_node
+[0.080s] [ 90%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/GameNode.cpp.o[0m
+[8.376s] [100%] [32m[1mLinking CXX executable game_node[0m
+[8.748s] /usr/bin/ld: CMakeFiles/game_node.dir/src/GameNode.cpp.o: in function `GameNode::GameNode()':
+[8.748s] GameNode.cpp:(.text+0x2f2): undefined reference to `environment::Environment::getMap() const'
+[8.749s] /usr/bin/ld: CMakeFiles/game_node.dir/src/GameNode.cpp.o: in function `waste::WasteGenerator::generate()':
+[8.749s] GameNode.cpp:(.text._ZN5waste14WasteGenerator8generateEv[_ZN5waste14WasteGenerator8generateEv]+0x41): undefined reference to `environment::Environment::getWidth() const'
+[8.750s] /usr/bin/ld: GameNode.cpp:(.text._ZN5waste14WasteGenerator8generateEv[_ZN5waste14WasteGenerator8generateEv]+0xa0): undefined reference to `environment::Environment::getHeight() const'
+[8.750s] /usr/bin/ld: GameNode.cpp:(.text._ZN5waste14WasteGenerator8generateEv[_ZN5waste14WasteGenerator8generateEv]+0x15c): undefined reference to `environment::Environment::isOccupied(double, double) const'
+[8.755s] /usr/bin/ld: CMakeFiles/game_node.dir/src/GameNode.cpp.o: in function `void __gnu_cxx::new_allocator<environment::Environment>::construct<environment::Environment, environment::Config&>(environment::Environment*, environment::Config&)':
+[8.755s] GameNode.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN11environment11EnvironmentEE9constructIS2_JRNS1_6ConfigEEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN11environment11EnvironmentEE9constructIS2_JRNS1_6ConfigEEEEvPT_DpOT0_]+0x47): undefined reference to `environment::Environment::Environment(environment::Config const&)'
+[8.803s] collect2: error: ld returned 1 exit status
+[8.805s] gmake[2]: *** [CMakeFiles/game_node.dir/build.make:245: game_node] Error 1
+[8.805s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/game_node.dir/all] Error 2
+[8.805s] gmake: *** [Makefile:146: all] Error 2
+[8.808s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '2': AMENT_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12

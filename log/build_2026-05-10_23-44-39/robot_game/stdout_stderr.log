@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_node[0m
+[ 25%] Built target keyboard_node
+[ 37%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/RobotNode.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Robot.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Canvas.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp.o[0m
+In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Canvas.cpp:1[m[K:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Canvas.h:3:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/opencv.hpp: No such file or directory
+    3 | #include [01;31m[K<opencv2/opencv.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:1[m[K:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:4:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/opencv.hpp: No such file or directory
+    4 | #include [01;31m[K<opencv2/opencv.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_node.dir/build.make:104: CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/robot_node.dir/build.make:132: CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Canvas.cpp.o] Error 1
+In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:7[m[K,
+                 from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Robot.cpp:1[m[K:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:4:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/opencv.hpp: No such file or directory
+    4 | #include [01;31m[K<opencv2/opencv.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_node.dir/build.make:90: CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Robot.cpp.o] Error 1
+In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Lidar.h:6[m[K,
+                 from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:1[m[K:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:4:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/opencv.hpp: No such file or directory
+    4 | #include [01;31m[K<opencv2/opencv.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_node.dir/build.make:118: CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp.o] Error 1
+In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/RobotNode.h:6[m[K,
+                 from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:1[m[K:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:4:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/opencv.hpp: No such file or directory
+    4 | #include [01;31m[K<opencv2/opencv.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_node.dir/build.make:76: CMakeFiles/robot_node.dir/src/RobotNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

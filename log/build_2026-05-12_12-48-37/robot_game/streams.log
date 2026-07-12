@@ -1,0 +1,64 @@
+[0.014s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': AMENT_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target keyboard_node[0m
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.107s] [ 53%] Built target robot_node
+[0.108s] [ 61%] [32mBuilding CXX object CMakeFiles/keyboard_node.dir/src/KeyboardNode.cpp.o[0m
+[0.117s] [ 69%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/GameNode.cpp.o[0m
+[3.003s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:1[m[K:
+[3.003s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/KeyboardNode.h:20:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.003s]    20 |     rclcpp::Publisher<std_msgs::msg::Bool[01;31m[K>[m[K::SharedPtr bot_toggle_pub_;
+[3.003s]       |                                          [01;31m[K^[m[K
+[3.003s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/KeyboardNode.h:20:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.004s]    20 |     rclcpp::Publisher<std_msgs::msg::Bool>::[01;31m[KSharedPtr[m[K bot_toggle_pub_;
+[3.004s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[3.004s]       |                                                      [32m[K;[m[K
+[3.008s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/KeyboardNode.h:20:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_toggle_pub_[m[K’ does not name a type
+[3.008s]    20 |     rclcpp::Publisher<std_msgs::msg::Bool>::SharedPtr [01;31m[Kbot_toggle_pub_[m[K;
+[3.008s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.024s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:[m[K In constructor ‘[01m[KKeyboardNode::KeyboardNode()[m[K’:
+[3.024s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_toggle_pub_[m[K’ was not declared in this scope
+[3.024s]    13 |     [01;31m[Kbot_toggle_pub_[m[K = this->create_publisher<std_msgs::msg::Bool>(
+[3.024s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.024s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:13:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.024s]    13 |     bot_toggle_pub_ = this->[01;31m[Kcreate_publisher<std_msgs::msg::Bool>[m[K(
+[3.024s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.024s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:13:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KKeyboardNode::create_publisher<<expression error> >(const char [12], int)[m[K’
+[3.024s]    13 |     bot_toggle_pub_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Bool>([m[K
+[3.024s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.025s]    14 | [01;31m[K        "/bot_toggle", 10[m[K
+[3.025s]       |         [01;31m[K~~~~~~~~~~~~~~~~~[m[K                                         
+[3.025s]    15 | [01;31m[K    )[m[K;
+[3.025s]       |     [01;31m[K~[m[K                                                             
+[3.025s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[3.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.025s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/KeyboardNode.h:3[m[K,
+[3.025s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:1[m[K:
+[3.025s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[3.025s]    73 | [01;36m[KNode[m[K::create_publisher(
+[3.025s]       | [01;36m[K^~~~[m[K
+[3.026s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.026s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:13:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.026s]    13 |     bot_toggle_pub_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Bool>([m[K
+[3.026s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.026s]    14 | [01;31m[K        "/bot_toggle", 10[m[K
+[3.026s]       |         [01;31m[K~~~~~~~~~~~~~~~~~[m[K                                         
+[3.026s]    15 | [01;31m[K    )[m[K;
+[3.026s]       |     [01;31m[K~[m[K                                                             
+[3.037s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/KeyboardNode.h:6[m[K,
+[3.038s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:1[m[K:
+[3.038s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:[m[K In member function ‘[01m[Kvoid KeyboardNode::timerCallback()[m[K’:
+[3.038s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:68:42:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kint[m[K’
+[3.038s]    68 |         auto toggle_msg = std_msgs::msg::[01;31m[KBool[m[K();
+[3.038s]       |                                          [01;31m[K^~~~[m[K
+[3.050s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:70:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_toggle_pub_[m[K’ was not declared in this scope
+[3.050s]    70 |         [01;31m[Kbot_toggle_pub_[m[K->publish(toggle_msg);
+[3.050s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.026s] gmake[2]: *** [CMakeFiles/keyboard_node.dir/build.make:76: CMakeFiles/keyboard_node.dir/src/KeyboardNode.cpp.o] Error 1
+[4.026s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/keyboard_node.dir/all] Error 2
+[4.027s] gmake[1]: *** Waiting for unfinished jobs....
+[14.268s] [ 76%] [32m[1mLinking CXX executable game_node[0m
+[15.115s] [ 92%] Built target game_node
+[15.116s] gmake: *** [Makefile:146: all] Error 2
+[15.119s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '2': AMENT_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12

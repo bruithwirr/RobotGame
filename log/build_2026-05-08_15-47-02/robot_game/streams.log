@@ -1,0 +1,42 @@
+[0.018s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bruithwirr/uni/ros2_ws/src/robot_game -DCMAKE_INSTALL_PREFIX=/home/bruithwirr/uni/ros2_ws/install/robot_game
+[0.189s] -- The C compiler identification is GNU 11.4.0
+[0.306s] -- The CXX compiler identification is GNU 11.4.0
+[0.335s] -- Detecting C compiler ABI info
+[0.439s] -- Detecting C compiler ABI info - done
+[0.447s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.470s] -- Detecting C compile features
+[0.472s] -- Detecting C compile features - done
+[0.476s] -- Detecting CXX compiler ABI info
+[0.661s] -- Detecting CXX compiler ABI info - done
+[0.669s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.669s] -- Detecting CXX compile features
+[0.670s] -- Detecting CXX compile features - done
+[0.678s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.872s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.000s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.105s] -- Added test 'lint_cmake' to check CMake code style
+[1.107s] -- Added test 'xmllint' to check XML markup files
+[1.109s] -- Configuring done
+[1.115s] -- Generating done
+[1.117s] -- Build files have been written to: /home/bruithwirr/uni/ros2_ws/build/robot_game
+[1.125s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bruithwirr/uni/ros2_ws/src/robot_game -DCMAKE_INSTALL_PREFIX=/home/bruithwirr/uni/ros2_ws/install/robot_game
+[1.128s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[1.184s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[1.200s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_game
+[1.210s] -- Install configuration: ""
+[1.210s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/package_run_dependencies/robot_game
+[1.211s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/parent_prefix_path/robot_game
+[1.211s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/ament_prefix_path.sh
+[1.211s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/ament_prefix_path.dsv
+[1.211s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/path.sh
+[1.212s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/path.dsv
+[1.212s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.bash
+[1.212s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.sh
+[1.212s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.zsh
+[1.213s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.dsv
+[1.213s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.dsv
+[1.213s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/packages/robot_game
+[1.213s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/cmake/robot_gameConfig.cmake
+[1.213s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/cmake/robot_gameConfig-version.cmake
+[1.214s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.xml
+[1.218s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_game

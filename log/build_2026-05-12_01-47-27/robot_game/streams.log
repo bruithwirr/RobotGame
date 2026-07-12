@@ -1,0 +1,50 @@
+[0.011s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': AMENT_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[0.037s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.144s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.168s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.170s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.175s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.192s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.218s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.219s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.312s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.351s] -- Found robot_msgs: 0.0.0 (/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake)
+[0.358s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.368s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.397s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.478s] -- Configuring done
+[0.501s] -- Generating done
+[0.508s] -- Build files have been written to: /home/bruithwirr/uni/ros2_ws/build/robot_game
+[0.536s] [35m[1mConsolidate compiler generated dependencies of target keyboard_node[0m
+[0.537s] [35m[1mConsolidate compiler generated dependencies of target robot_node[0m
+[0.548s] [ 10%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/GameNode.cpp.o[0m
+[0.558s] [ 30%] Built target keyboard_node
+[0.566s] [ 90%] Built target robot_node
+[3.185s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/GameNode.h:6[m[K,
+[3.186s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:1[m[K:
+[3.186s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/waste/WasteGenerator.h:[m[K In member function ‘[01m[Kstd::shared_ptr<waste::WasteItem> waste::WasteGenerator::generate()[m[K’:
+[3.186s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/waste/WasteGenerator.h:33:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class environment::Environment[m[K’ {aka ‘[01m[Kclass environment::Environment[m[K’} has no member named ‘[01m[KgetResolution[m[K’; did you mean ‘[01m[Kdouble environment::Environment::resolution_[m[K’? (not accessible from this context)
+[3.186s]    33 |                 x = randomDouble(10.0, env_->getWidth()  / env_->[01;31m[KgetResolution[m[K() - 10.0);
+[3.186s]       |                                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[3.186s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/waste/WasteGenerator.h:4[m[K,
+[3.187s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/GameNode.h:6[m[K,
+[3.187s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:1[m[K:
+[3.187s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:24:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[3.187s]    24 |     double [01;36m[Kresolution_[m[K;
+[3.187s]       |            [01;36m[K^~~~~~~~~~~[m[K
+[3.187s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/GameNode.h:6[m[K,
+[3.187s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:1[m[K:
+[3.187s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/waste/WasteGenerator.h:34:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class environment::Environment[m[K’ {aka ‘[01m[Kclass environment::Environment[m[K’} has no member named ‘[01m[KgetResolution[m[K’; did you mean ‘[01m[Kdouble environment::Environment::resolution_[m[K’? (not accessible from this context)
+[3.187s]    34 |                 y = randomDouble(10.0, env_->getHeight() / env_->[01;31m[KgetResolution[m[K() - 10.0);
+[3.187s]       |                                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[3.187s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/waste/WasteGenerator.h:4[m[K,
+[3.187s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/GameNode.h:6[m[K,
+[3.188s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:1[m[K:
+[3.188s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:24:12:[m[K [01;36m[Knote: [m[Kdeclared private here
+[3.188s]    24 |     double [01;36m[Kresolution_[m[K;
+[3.188s]       |            [01;36m[K^~~~~~~~~~~[m[K
+[5.760s] gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/GameNode.cpp.o] Error 1
+[5.760s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/game_node.dir/all] Error 2
+[5.761s] gmake: *** [Makefile:146: all] Error 2
+[5.764s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '2': AMENT_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12

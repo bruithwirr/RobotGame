@@ -1,0 +1,10 @@
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:[m[K In member function ‘[01m[Kvoid GameNode::onRobot1State(robot_msgs::msg::RobotState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:80:33:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+   80 |     void GameNode::onRobot1State[01;31m[K([m[Kconst robot_msgs::msg::RobotState::SharedPtr msg)
+      |                                 [01;31m[K^[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:78:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   78 | void GameNode::onRobot1State([01;35m[Kconst robot_msgs::msg::RobotState::SharedPtr msg[m[K)
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/GameNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/game_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

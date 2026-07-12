@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_node[0m
+[ 25%] Built target keyboard_node
+[ 37%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/RobotNode.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Robot.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Canvas.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp.o[0m

@@ -1,0 +1,17 @@
+[0.013s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target bot_node[0m
+[0.091s] [  9%] Built target keyboard_node
+[0.094s] [ 33%] Built target lidar_node
+[0.096s] [ 66%] Built target robot_node
+[0.104s] [ 76%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/GameNode.cpp.o[0m
+[0.104s] [ 85%] Built target bot_node
+[0.403s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:1[m[K:
+[0.403s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/GameNode.h:9:10:[m[K [01;31m[Kfatal error: [m[Krobot_msgs/msg/game_state.hpp: No such file or directory
+[0.403s]     9 | #include [01;31m[K"robot_msgs/msg/game_state.hpp"[m[K
+[0.403s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.403s] compilation terminated.
+[0.411s] gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/GameNode.cpp.o] Error 1
+[0.411s] gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/game_node.dir/all] Error 2
+[0.412s] gmake: *** [Makefile:146: all] Error 2
+[0.414s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '2': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12

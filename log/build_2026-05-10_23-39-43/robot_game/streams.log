@@ -1,0 +1,29 @@
+[0.017s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[0.043s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.158s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.184s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.186s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.191s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.236s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.237s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.332s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.369s] -- Found robot_msgs: 0.0.0 (/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake)
+[0.376s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.386s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.471s] -- Found Curses: /usr/lib/x86_64-linux-gnu/libcurses.so  
+[0.471s] [31mCMake Error at CMakeLists.txt:15 (target_include_directories):
+[0.472s]   Cannot specify include directories for target "keyboard_node" which is not
+[0.472s]   built by this project.
+[0.472s] 
+[0.472s] [0m
+[0.472s] [31mCMake Error at CMakeLists.txt:20 (target_link_libraries):
+[0.472s]   Cannot specify link libraries for target "keyboard_node" which is not built
+[0.472s]   by this project.
+[0.472s] 
+[0.472s] [0m
+[0.472s] -- Configuring incomplete, errors occurred!
+[0.472s] See also "/home/bruithwirr/uni/ros2_ws/build/robot_game/CMakeFiles/CMakeOutput.log".
+[0.478s] gmake: *** [Makefile:416: cmake_check_build_system] Error 1
+[0.481s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12

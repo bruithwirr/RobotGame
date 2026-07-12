@@ -1,0 +1,17 @@
+[0.028s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[0.151s] [35m[1mConsolidate compiler generated dependencies of target robot_node[0m
+[0.186s] [ 31%] Built target keyboard_node
+[0.186s] [ 31%] Built target bot_node
+[0.190s] [ 37%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/GameNode.cpp.o[0m
+[0.236s] [ 81%] Built target robot_node
+[6.161s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:[m[K In member function ‘[01m[Kvoid GameNode::onRobot1State(robot_msgs::msg::RobotState_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.161s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:80:33:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.161s]    80 |     void GameNode::onRobot1State[01;31m[K([m[Kconst robot_msgs::msg::RobotState::SharedPtr msg)
+[6.161s]       |                                 [01;31m[K^[m[K
+[6.161s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/GameNode.cpp:78:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.161s]    78 | void GameNode::onRobot1State([01;35m[Kconst robot_msgs::msg::RobotState::SharedPtr msg[m[K)
+[6.161s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.765s] gmake[2]: *** [CMakeFiles/game_node.dir/build.make:76: CMakeFiles/game_node.dir/src/GameNode.cpp.o] Error 1
+[8.765s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/game_node.dir/all] Error 2
+[8.766s] gmake: *** [Makefile:146: all] Error 2
+[8.768s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '2': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12

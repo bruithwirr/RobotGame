@@ -1,0 +1,71 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found robot_msgs: 0.0.0 (/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake)
+-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bruithwirr/uni/ros2_ws/build/robot_game
+[35m[1mConsolidate compiler generated dependencies of target keyboard_node[0m
+[35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_node[0m
+[  9%] [32mBuilding CXX object CMakeFiles/keyboard_node.dir/src/KeyboardNode.cpp.o[0m
+[ 36%] Built target game_node
+[ 90%] Built target robot_node
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:34:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool KeyboardNode::isKeyPressed(int)[m[K’
+   34 | bool [01;31m[KKeyboardNode[m[K::isKeyPressed(int keycode)
+      |      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:34:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool KeyboardNode::isKeyPressed(int)[m[K’
+In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:1[m[K:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/KeyboardNode.h:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass KeyboardNode[m[K’ defined here
+    8 | class [01;36m[KKeyboardNode[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:[m[K In member function ‘[01m[Kvoid KeyboardNode::timerCallback()[m[K’:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:53:9:[m[K [01;31m[Kerror: [m[K‘[01m[KisKeyPressed[m[K’ was not declared in this scope; did you mean ‘[01m[KKeyPress[m[K’?
+   53 |     if ([01;31m[KisKeyPressed[m[K(kc(XK_w))) msg1.linear.x  =  70.0;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[KKeyPress[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:54:9:[m[K [01;31m[Kerror: [m[K‘[01m[KisKeyPressed[m[K’ was not declared in this scope; did you mean ‘[01m[KKeyPress[m[K’?
+   54 |     if ([01;31m[KisKeyPressed[m[K(kc(XK_s))) msg1.linear.x  = -70.0;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[KKeyPress[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:55:9:[m[K [01;31m[Kerror: [m[K‘[01m[KisKeyPressed[m[K’ was not declared in this scope; did you mean ‘[01m[KKeyPress[m[K’?
+   55 |     if ([01;31m[KisKeyPressed[m[K(kc(XK_a))) msg1.angular.z = -70.0;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[KKeyPress[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[KisKeyPressed[m[K’ was not declared in this scope; did you mean ‘[01m[KKeyPress[m[K’?
+   56 |     if ([01;31m[KisKeyPressed[m[K(kc(XK_d))) msg1.angular.z =  70.0;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[KKeyPress[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[KisKeyPressed[m[K’ was not declared in this scope; did you mean ‘[01m[KKeyPress[m[K’?
+   59 |     if ([01;31m[KisKeyPressed[m[K(kc(XK_i))) msg2.linear.x  =  70.0;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[KKeyPress[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:60:9:[m[K [01;31m[Kerror: [m[K‘[01m[KisKeyPressed[m[K’ was not declared in this scope; did you mean ‘[01m[KKeyPress[m[K’?
+   60 |     if ([01;31m[KisKeyPressed[m[K(kc(XK_k))) msg2.linear.x  = -70.0;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[KKeyPress[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[KisKeyPressed[m[K’ was not declared in this scope; did you mean ‘[01m[KKeyPress[m[K’?
+   61 |     if ([01;31m[KisKeyPressed[m[K(kc(XK_j))) msg2.angular.z = -70.0;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[KKeyPress[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[KisKeyPressed[m[K’ was not declared in this scope; did you mean ‘[01m[KKeyPress[m[K’?
+   62 |     if ([01;31m[KisKeyPressed[m[K(kc(XK_l))) msg2.angular.z =  70.0;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[KKeyPress[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:65:9:[m[K [01;31m[Kerror: [m[K‘[01m[KisKeyPressed[m[K’ was not declared in this scope; did you mean ‘[01m[KKeyPress[m[K’?
+   65 |     if ([01;31m[KisKeyPressed[m[K(kc(XK_Escape))) {
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[KKeyPress[m[K
+gmake[2]: *** [CMakeFiles/keyboard_node.dir/build.make:76: CMakeFiles/keyboard_node.dir/src/KeyboardNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/keyboard_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

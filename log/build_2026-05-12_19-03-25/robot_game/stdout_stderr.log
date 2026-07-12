@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target bot_node[0m
+[35m[1mConsolidate compiler generated dependencies of target keyboard_node[0m
+[35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_node[0m
+[ 12%] Built target keyboard_node
+[ 25%] [32mBuilding CXX object CMakeFiles/bot_node.dir/src/BotNode.cpp.o[0m
+[ 43%] Built target game_node
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/RobotNode.cpp.o[0m
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/BotNode.cpp:[m[K In constructor ‘[01m[KBotNode::BotNode()[m[K’:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/BotNode.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstation_x_[m[K’ was not declared in this scope
+   15 |         [01;31m[Kstation_x_[m[K  = cfg.station.x;
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/BotNode.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstation_y_[m[K’ was not declared in this scope
+   16 |         [01;31m[Kstation_y_[m[K  = cfg.station.y;
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/BotNode.cpp:[m[K In member function ‘[01m[Kvoid BotNode::timerCallback()[m[K’:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/BotNode.cpp:82:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstation_x_[m[K’ was not declared in this scope
+   82 |         target_x = [01;31m[Kstation_x_[m[K;
+      |                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/BotNode.cpp:83:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstation_y_[m[K’ was not declared in this scope
+   83 |         target_y = [01;31m[Kstation_y_[m[K;
+      |                    [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/RobotNode.h:9[m[K,
+                 from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:1[m[K:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:25:84:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kgeometry::RobotState::velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   25 |         geometry::RobotState initial_state = geometry::RobotState{200.0, 200.0, 0.0[01;35m[K}[m[K,
+      |                                                                                    [01;35m[K^[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:[m[K In constructor ‘[01m[KRobotNode::RobotNode(int)[m[K’:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_x[m[K’ was not declared in this scope
+   40 |     [01;31m[Kstart_x[m[K = cfg.robot.start_positions[robot_id_].x;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_y[m[K’ was not declared in this scope
+   41 |     [01;31m[Kstart_y[m[K = cfg.robot.start_positions[robot_id_].y;
+      |     [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/bot_node.dir/build.make:76: CMakeFiles/bot_node.dir/src/BotNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/bot_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/robot_node.dir/build.make:76: CMakeFiles/robot_node.dir/src/RobotNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/robot_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

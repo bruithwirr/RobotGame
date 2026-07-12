@@ -1,0 +1,42 @@
+[35m[1mConsolidate compiler generated dependencies of target bot_node[0m
+[35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_node[0m
+[35m[1mConsolidate compiler generated dependencies of target lidar_node[0m
+[  9%] Built target keyboard_node
+[ 23%] Built target bot_node
+[ 42%] Built target game_node
+[ 47%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/src/LidarNode.cpp.o[0m
+[ 80%] Built target robot_node
+[ 85%] [32m[1mLinking CXX executable lidar_node[0m
+[100%] Built target lidar_node
+-- Install configuration: ""
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/keyboard_node
+-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/robot_node
+-- Set runtime path of "/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/robot_node" to ""
+-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/game_node
+-- Set runtime path of "/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/game_node" to ""
+-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/bot_node
+-- Set runtime path of "/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/bot_node" to ""
+-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/lidar_node
+-- Set runtime path of "/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/lidar_node" to ""
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/launch
+-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/launch/game.launch.py
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/rviz
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/rviz/rviz_config.rviz
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/config
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/config/game_config.yaml
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/package_run_dependencies/robot_game
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/parent_prefix_path/robot_game
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/ament_prefix_path.sh
+-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/path.sh
+-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/path.dsv
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.bash
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.sh
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.zsh
+-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.dsv
+-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.dsv
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/packages/robot_game
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/cmake/robot_gameConfig.cmake
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/cmake/robot_gameConfig-version.cmake
+-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.xml

@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_msgs",
+  "non_idl_tuples": [
+    "/home/bruithwirr/uni/ros2_ws/src/robot_msgs:msg/RobotState.msg"
+  ]
+}

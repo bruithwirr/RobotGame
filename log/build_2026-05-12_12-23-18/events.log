@@ -1,0 +1,499 @@
+[0.000000] (-) TimerEvent: {}
+[0.000205] (robot_msgs) JobQueued: {'identifier': 'robot_msgs', 'dependencies': OrderedDict()}
+[0.000254] (robot_old) JobQueued: {'identifier': 'robot_old', 'dependencies': OrderedDict()}
+[0.000283] (robot_game) JobQueued: {'identifier': 'robot_game', 'dependencies': OrderedDict([('robot_msgs', '/home/bruithwirr/uni/ros2_ws/install/robot_msgs')])}
+[0.001075] (robot_msgs) JobStarted: {'identifier': 'robot_msgs'}
+[0.008646] (robot_old) JobStarted: {'identifier': 'robot_old'}
+[0.014239] (robot_msgs) JobProgress: {'identifier': 'robot_msgs', 'progress': 'cmake'}
+[0.015305] (robot_msgs) JobProgress: {'identifier': 'robot_msgs', 'progress': 'build'}
+[0.016632] (robot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bruithwirr/uni/ros2_ws/build/robot_msgs', '--', '-j12', '-l12'], 'cwd': '/home/bruithwirr/uni/ros2_ws/build/robot_msgs', 'env': OrderedDict([('TERM_SESSION_ID', '3f479b84-26e9-4237-b38c-ea854e553588'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'bruithwirr'), ('SNAP_COMMON', '/var/snap/clion/common'), ('LC_TIME', 'sk_SK.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SNAP_UID', '1000'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bruithwirr'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/bruithwirr/snap/clion/439'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/clion_clion.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('MANAGERPID', '1693'), ('SYSTEMD_EXEC_PID', '1968'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '439'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2740'), ('COLCON_PREFIX_PATH', '/home/bruithwirr/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'bruithwirr'), ('SNAP_CONTEXT', '1Uw4xdhUbU1X9gqDTpAjmpu3h5-P0EBpfdtNz6Ks4t-v67Ujofs4'), ('JOURNAL_STREAM', '8:18817'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '2026.1.1'), ('USERNAME', 'bruithwirr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'clion'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bruithwirr/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/bruithwirr-HP-EliteBook-835-G8-Notebook-PC:@/tmp/.ICE-unix/1941,unix/bruithwirr-HP-EliteBook-835-G8-Notebook-PC:/tmp/.ICE-unix/1941'), ('INVOCATION_ID', '35f3208ebb3d4178bca3145ff620e5c1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('SNAP_DATA', '/var/snap/clion/439'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion/1968-0-bruithwirr-HP-EliteBook-835-G8-Notebook-PC_TIME21780'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/bruithwirr/snap/clion/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SNAP_COOKIE', '1Uw4xdhUbU1X9gqDTpAjmpu3h5-P0EBpfdtNz6Ks4t-v67Ujofs4'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'clion'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bruithwirr/uni/ros2_ws/build/robot_msgs'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/bruithwirr'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/clion/439'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.020833] (robot_old) JobProgress: {'identifier': 'robot_old', 'progress': 'cmake'}
+[0.021522] (robot_old) JobProgress: {'identifier': 'robot_old', 'progress': 'build'}
+[0.022485] (robot_old) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bruithwirr/uni/ros2_ws/build/robot_old', '--', '-j12', '-l12'], 'cwd': '/home/bruithwirr/uni/ros2_ws/build/robot_old', 'env': OrderedDict([('TERM_SESSION_ID', '3f479b84-26e9-4237-b38c-ea854e553588'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'bruithwirr'), ('SNAP_COMMON', '/var/snap/clion/common'), ('LC_TIME', 'sk_SK.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SNAP_UID', '1000'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bruithwirr'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/bruithwirr/snap/clion/439'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/clion_clion.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('MANAGERPID', '1693'), ('SYSTEMD_EXEC_PID', '1968'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '439'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2740'), ('COLCON_PREFIX_PATH', '/home/bruithwirr/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'bruithwirr'), ('SNAP_CONTEXT', '1Uw4xdhUbU1X9gqDTpAjmpu3h5-P0EBpfdtNz6Ks4t-v67Ujofs4'), ('JOURNAL_STREAM', '8:18817'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '2026.1.1'), ('USERNAME', 'bruithwirr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'clion'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bruithwirr/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/bruithwirr-HP-EliteBook-835-G8-Notebook-PC:@/tmp/.ICE-unix/1941,unix/bruithwirr-HP-EliteBook-835-G8-Notebook-PC:/tmp/.ICE-unix/1941'), ('INVOCATION_ID', '35f3208ebb3d4178bca3145ff620e5c1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('SNAP_DATA', '/var/snap/clion/439'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion/1968-0-bruithwirr-HP-EliteBook-835-G8-Notebook-PC_TIME21780'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/bruithwirr/snap/clion/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SNAP_COOKIE', '1Uw4xdhUbU1X9gqDTpAjmpu3h5-P0EBpfdtNz6Ks4t-v67Ujofs4'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'clion'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bruithwirr/uni/ros2_ws/build/robot_old'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/bruithwirr'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/clion/439'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.053158] (robot_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.054049] (robot_old) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099674] (-) TimerEvent: {}
+[0.200100] (-) TimerEvent: {}
+[0.210016] (robot_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.211155] (robot_old) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.211978] (robot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.216066] (robot_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.252647] (robot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299097] (robot_old) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.299384] (robot_old) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.299484] (robot_old) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.300187] (-) TimerEvent: {}
+[0.300923] (robot_old) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.304513] (robot_old) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.304710] (robot_old) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.305276] (robot_old) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.306335] (robot_old) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.310777] (robot_old) StdoutLine: {'line': b'-- Generating done\n'}
+[0.313708] (robot_old) StdoutLine: {'line': b'-- Build files have been written to: /home/bruithwirr/uni/ros2_ws/build/robot_old\n'}
+[0.346327] (robot_old) CommandEnded: {'returncode': 0}
+[0.347252] (robot_old) JobProgress: {'identifier': 'robot_old', 'progress': 'install'}
+[0.361788] (robot_old) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bruithwirr/uni/ros2_ws/build/robot_old'], 'cwd': '/home/bruithwirr/uni/ros2_ws/build/robot_old', 'env': OrderedDict([('TERM_SESSION_ID', '3f479b84-26e9-4237-b38c-ea854e553588'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'bruithwirr'), ('SNAP_COMMON', '/var/snap/clion/common'), ('LC_TIME', 'sk_SK.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SNAP_UID', '1000'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bruithwirr'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/bruithwirr/snap/clion/439'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/clion_clion.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('MANAGERPID', '1693'), ('SYSTEMD_EXEC_PID', '1968'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '439'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2740'), ('COLCON_PREFIX_PATH', '/home/bruithwirr/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'bruithwirr'), ('SNAP_CONTEXT', '1Uw4xdhUbU1X9gqDTpAjmpu3h5-P0EBpfdtNz6Ks4t-v67Ujofs4'), ('JOURNAL_STREAM', '8:18817'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '2026.1.1'), ('USERNAME', 'bruithwirr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'clion'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bruithwirr/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/bruithwirr-HP-EliteBook-835-G8-Notebook-PC:@/tmp/.ICE-unix/1941,unix/bruithwirr-HP-EliteBook-835-G8-Notebook-PC:/tmp/.ICE-unix/1941'), ('INVOCATION_ID', '35f3208ebb3d4178bca3145ff620e5c1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('SNAP_DATA', '/var/snap/clion/439'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion/1968-0-bruithwirr-HP-EliteBook-835-G8-Notebook-PC_TIME21780'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/bruithwirr/snap/clion/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SNAP_COOKIE', '1Uw4xdhUbU1X9gqDTpAjmpu3h5-P0EBpfdtNz6Ks4t-v67Ujofs4'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'clion'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bruithwirr/uni/ros2_ws/build/robot_old'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/bruithwirr'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/clion/439'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.371813] (robot_old) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.372084] (robot_old) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/ament_index/resource_index/package_run_dependencies/robot_old\n'}
+[0.372271] (robot_old) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/ament_index/resource_index/parent_prefix_path/robot_old\n'}
+[0.372390] (robot_old) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/environment/ament_prefix_path.sh\n'}
+[0.372492] (robot_old) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/environment/ament_prefix_path.dsv\n'}
+[0.372626] (robot_old) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/environment/path.sh\n'}
+[0.372762] (robot_old) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/environment/path.dsv\n'}
+[0.373157] (robot_old) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/local_setup.bash\n'}
+[0.373342] (robot_old) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/local_setup.sh\n'}
+[0.373463] (robot_old) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/local_setup.zsh\n'}
+[0.373579] (robot_old) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/local_setup.dsv\n'}
+[0.373751] (robot_old) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/package.dsv\n'}
+[0.374100] (robot_old) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/ament_index/resource_index/packages/robot_old\n'}
+[0.374248] (robot_old) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/cmake/robot_oldConfig.cmake\n'}
+[0.374385] (robot_old) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/cmake/robot_oldConfig-version.cmake\n'}
+[0.374455] (robot_old) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/package.xml\n'}
+[0.377447] (robot_old) CommandEnded: {'returncode': 0}
+[0.396944] (robot_old) JobEnded: {'identifier': 'robot_old', 'rc': 0}
+[0.400288] (-) TimerEvent: {}
+[0.500550] (-) TimerEvent: {}
+[0.589385] (robot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600657] (-) TimerEvent: {}
+[0.700986] (-) TimerEvent: {}
+[0.801332] (-) TimerEvent: {}
+[0.817943] (robot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901456] (-) TimerEvent: {}
+[1.001792] (-) TimerEvent: {}
+[1.102144] (-) TimerEvent: {}
+[1.113714] (robot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.142868] (robot_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.170989] (robot_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.171236] (robot_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.171335] (robot_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.202289] (-) TimerEvent: {}
+[1.259068] (robot_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.271513] (robot_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.272883] (robot_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.275435] (robot_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.302426] (-) TimerEvent: {}
+[1.319854] (robot_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.335651] (robot_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/bruithwirr/uni/ros2_ws/build/robot_msgs\n'}
+[1.370404] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.384569] (robot_msgs) StdoutLine: {'line': b'[  6%] Built target robot_msgs__rs\n'}
+[1.384900] (robot_msgs) StdoutLine: {'line': b'[  6%] Built target robot_msgs__cpp\n'}
+[1.385184] (robot_msgs) StdoutLine: {'line': b'[ 15%] Built target robot_msgs__rosidl_generator_c\n'}
+[1.398553] (robot_msgs) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_robot_msgs\n'}
+[1.398946] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.399138] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.399220] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.402511] (-) TimerEvent: {}
+[1.413519] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[1.413927] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.416662] (robot_msgs) StdoutLine: {'line': b'[ 25%] Built target robot_msgs__rosidl_typesupport_cpp\n'}
+[1.417204] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.417561] (robot_msgs) StdoutLine: {'line': b'[ 34%] Built target robot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.418380] (robot_msgs) StdoutLine: {'line': b'[ 43%] Built target robot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.430283] (robot_msgs) StdoutLine: {'line': b'[ 53%] Built target robot_msgs__rosidl_typesupport_c\n'}
+[1.430672] (robot_msgs) StdoutLine: {'line': b'[ 62%] Built target robot_msgs__rosidl_typesupport_introspection_c\n'}
+[1.436516] (robot_msgs) StdoutLine: {'line': b'[ 71%] Built target robot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.466094] (robot_msgs) StdoutLine: {'line': b'[ 71%] Built target robot_msgs\n'}
+[1.495370] (robot_msgs) StdoutLine: {'line': b'[ 75%] Built target robot_msgs__py\n'}
+[1.502622] (-) TimerEvent: {}
+[1.510198] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_generator_py\x1b[0m\n'}
+[1.530965] (robot_msgs) StdoutLine: {'line': b'[ 81%] Built target robot_msgs__rosidl_generator_py\n'}
+[1.546599] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.546898] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.547033] (robot_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.565889] (robot_msgs) StdoutLine: {'line': b'[100%] Built target robot_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.566129] (robot_msgs) StdoutLine: {'line': b'[100%] Built target robot_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.566242] (robot_msgs) StdoutLine: {'line': b'[100%] Built target robot_msgs__rosidl_typesupport_c__pyext\n'}
+[1.602779] (-) TimerEvent: {}
+[1.702499] (robot_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.702800] (-) TimerEvent: {}
+[1.703457] (robot_msgs) StdoutLine: {'line': b'writing robot_msgs.egg-info/PKG-INFO\n'}
+[1.703794] (robot_msgs) StdoutLine: {'line': b'writing dependency_links to robot_msgs.egg-info/dependency_links.txt\n'}
+[1.704026] (robot_msgs) StdoutLine: {'line': b'writing top-level names to robot_msgs.egg-info/top_level.txt\n'}
+[1.706397] (robot_msgs) StdoutLine: {'line': b"reading manifest file 'robot_msgs.egg-info/SOURCES.txt'\n"}
+[1.707132] (robot_msgs) StdoutLine: {'line': b"writing manifest file 'robot_msgs.egg-info/SOURCES.txt'\n"}
+[1.740674] (robot_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_robot_msgs_egg\n'}
+[1.758042] (robot_msgs) CommandEnded: {'returncode': 0}
+[1.759179] (robot_msgs) JobProgress: {'identifier': 'robot_msgs', 'progress': 'install'}
+[1.760312] (robot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bruithwirr/uni/ros2_ws/build/robot_msgs'], 'cwd': '/home/bruithwirr/uni/ros2_ws/build/robot_msgs', 'env': OrderedDict([('TERM_SESSION_ID', '3f479b84-26e9-4237-b38c-ea854e553588'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'bruithwirr'), ('SNAP_COMMON', '/var/snap/clion/common'), ('LC_TIME', 'sk_SK.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SNAP_UID', '1000'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bruithwirr'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/bruithwirr/snap/clion/439'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/clion_clion.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('MANAGERPID', '1693'), ('SYSTEMD_EXEC_PID', '1968'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '439'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2740'), ('COLCON_PREFIX_PATH', '/home/bruithwirr/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'bruithwirr'), ('SNAP_CONTEXT', '1Uw4xdhUbU1X9gqDTpAjmpu3h5-P0EBpfdtNz6Ks4t-v67Ujofs4'), ('JOURNAL_STREAM', '8:18817'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '2026.1.1'), ('USERNAME', 'bruithwirr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'clion'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bruithwirr/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/bruithwirr-HP-EliteBook-835-G8-Notebook-PC:@/tmp/.ICE-unix/1941,unix/bruithwirr-HP-EliteBook-835-G8-Notebook-PC:/tmp/.ICE-unix/1941'), ('INVOCATION_ID', '35f3208ebb3d4178bca3145ff620e5c1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('SNAP_DATA', '/var/snap/clion/439'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion/1968-0-bruithwirr-HP-EliteBook-835-G8-Notebook-PC_TIME21780'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/bruithwirr/snap/clion/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SNAP_COOKIE', '1Uw4xdhUbU1X9gqDTpAjmpu3h5-P0EBpfdtNz6Ks4t-v67Ujofs4'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'clion'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bruithwirr/uni/ros2_ws/build/robot_msgs'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/bruithwirr'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/clion/439'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.771588] (robot_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.771980] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/ament_index/resource_index/rosidl_interfaces/robot_msgs\n'}
+[1.772150] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs\n'}
+[1.772251] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg\n'}
+[1.772409] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail\n'}
+[1.772501] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/robot_state__type_support.h\n'}
+[1.772589] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/robot_state__struct.h\n'}
+[1.772673] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/robot_state__functions.h\n'}
+[1.772760] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/robot_state__functions.c\n'}
+[1.772897] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/robot_state.h\n'}
+[1.773042] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.773109] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/environment/library_path.sh\n'}
+[1.773175] (robot_msgs) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/environment/library_path.dsv\n'}
+[1.773271] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_generator_c.so\n'}
+[1.773448] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs\n'}
+[1.773547] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg\n'}
+[1.773641] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail\n'}
+[1.773731] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h\n'}
+[1.773856] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.774133] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.774466] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs\n'}
+[1.774620] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg\n'}
+[1.774722] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail\n'}
+[1.774868] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_c.h\n'}
+[1.774947] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/robot_state__type_support.c\n'}
+[1.775047] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.775283] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.775748] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_c.so\n'}
+[1.776080] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs\n'}
+[1.776229] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg\n'}
+[1.776353] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail\n'}
+[1.776494] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/robot_state__builder.hpp\n'}
+[1.776595] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/robot_state__traits.hpp\n'}
+[1.776681] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/robot_state__type_support.hpp\n'}
+[1.776752] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/robot_state__struct.hpp\n'}
+[1.776889] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.776982] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/robot_state.hpp\n'}
+[1.777053] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs\n'}
+[1.777120] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg\n'}
+[1.777214] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail\n'}
+[1.777284] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.777360] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/dds_fastrtps\n'}
+[1.777421] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.777481] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.777631] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs\n'}
+[1.777724] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg\n'}
+[1.777871] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail\n'}
+[1.777981] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/robot_state__type_support.cpp\n'}
+[1.778080] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.778241] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.778736] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_cpp.so\n'}
+[1.779078] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/environment/pythonpath.sh\n'}
+[1.779217] (robot_msgs) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/environment/pythonpath.dsv\n'}
+[1.779501] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info\n'}
+[1.779671] (robot_msgs) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.779926] (robot_msgs) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.780207] (robot_msgs) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.780532] (robot_msgs) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.780895] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs\n'}
+[1.781094] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.781212] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.781288] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.781361] (robot_msgs) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/__init__.py\n'}
+[1.781483] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.781558] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.781632] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/msg\n'}
+[1.781745] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/msg/_robot_state.py\n'}
+[1.781868] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/msg/_robot_state_s.c\n'}
+[1.781940] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/msg/__init__.py\n'}
+[1.782005] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.782078] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/librobot_msgs__rosidl_generator_py.so\n'}
+[1.802920] (-) TimerEvent: {}
+[1.823528] (robot_msgs) StdoutLine: {'line': b"Listing '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs'...\n"}
+[1.823801] (robot_msgs) StdoutLine: {'line': b"Compiling '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/__init__.py'...\n"}
+[1.823924] (robot_msgs) StdoutLine: {'line': b"Listing '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/msg'...\n"}
+[1.830051] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.830580] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.831101] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.831626] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_generator_py.so\n'}
+[1.831951] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/ament_index/resource_index/rust_packages/robot_msgs\n'}
+[1.832167] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/rust\n'}
+[1.832292] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/rust/build.rs\n'}
+[1.832416] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/rust/Cargo.toml\n'}
+[1.832503] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/rust/src\n'}
+[1.832706] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/rust/src/lib.rs\n'}
+[1.832789] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/rust/src/msg.rs\n'}
+[1.832893] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/rust/src/msg\n'}
+[1.832958] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/rust/src/msg/rmw.rs\n'}
+[1.833059] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/msg/RobotState.idl\n'}
+[1.833164] (robot_msgs) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/msg/RobotState.msg\n'}
+[1.833299] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/ament_index/resource_index/package_run_dependencies/robot_msgs\n'}
+[1.833373] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/ament_index/resource_index/parent_prefix_path/robot_msgs\n'}
+[1.833437] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/environment/ament_prefix_path.sh\n'}
+[1.833499] (robot_msgs) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/environment/ament_prefix_path.dsv\n'}
+[1.833604] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/environment/path.sh\n'}
+[1.833752] (robot_msgs) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/environment/path.dsv\n'}
+[1.834059] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/local_setup.bash\n'}
+[1.834182] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/local_setup.sh\n'}
+[1.834315] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/local_setup.zsh\n'}
+[1.834413] (robot_msgs) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/local_setup.dsv\n'}
+[1.834592] (robot_msgs) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/package.dsv\n'}
+[1.835016] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/ament_index/resource_index/packages/robot_msgs\n'}
+[1.835176] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport.cmake\n'}
+[1.835295] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.835408] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.835513] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.835652] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.835753] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.835903] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.836029] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.836154] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.836306] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.836418] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.836543] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.836654] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.836782] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.836918] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.837035] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.837153] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.837365] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.837505] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.837603] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.837725] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.837883] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.838022] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.838130] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.838223] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgsConfig.cmake\n'}
+[1.838314] (robot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgsConfig-version.cmake\n'}
+[1.838434] (robot_msgs) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/package.xml\n'}
+[1.841936] (robot_msgs) CommandEnded: {'returncode': 0}
+[1.861805] (robot_msgs) JobEnded: {'identifier': 'robot_msgs', 'rc': 0}
+[1.863357] (robot_game) JobStarted: {'identifier': 'robot_game'}
+[1.872853] (robot_game) JobProgress: {'identifier': 'robot_game', 'progress': 'cmake'}
+[1.873845] (robot_game) JobProgress: {'identifier': 'robot_game', 'progress': 'build'}
+[1.874380] (robot_game) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bruithwirr/uni/ros2_ws/build/robot_game', '--', '-j12', '-l12'], 'cwd': '/home/bruithwirr/uni/ros2_ws/build/robot_game', 'env': OrderedDict([('TERM_SESSION_ID', '3f479b84-26e9-4237-b38c-ea854e553588'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'bruithwirr'), ('SNAP_COMMON', '/var/snap/clion/common'), ('LC_TIME', 'sk_SK.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SNAP_UID', '1000'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bruithwirr'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/bruithwirr/snap/clion/439'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/clion_clion.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('MANAGERPID', '1693'), ('SYSTEMD_EXEC_PID', '1968'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '439'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2740'), ('COLCON_PREFIX_PATH', '/home/bruithwirr/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'bruithwirr'), ('SNAP_CONTEXT', '1Uw4xdhUbU1X9gqDTpAjmpu3h5-P0EBpfdtNz6Ks4t-v67Ujofs4'), ('JOURNAL_STREAM', '8:18817'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '2026.1.1'), ('USERNAME', 'bruithwirr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'clion'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bruithwirr/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/bruithwirr-HP-EliteBook-835-G8-Notebook-PC:@/tmp/.ICE-unix/1941,unix/bruithwirr-HP-EliteBook-835-G8-Notebook-PC:/tmp/.ICE-unix/1941'), ('INVOCATION_ID', '35f3208ebb3d4178bca3145ff620e5c1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('SNAP_DATA', '/var/snap/clion/439'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion/1968-0-bruithwirr-HP-EliteBook-835-G8-Notebook-PC_TIME21780'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/bruithwirr/snap/clion/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble'), ('SNAP_COOKIE', '1Uw4xdhUbU1X9gqDTpAjmpu3h5-P0EBpfdtNz6Ks4t-v67Ujofs4'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'clion'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bruithwirr/uni/ros2_ws/build/robot_game'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/bruithwirr'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/clion/439'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble')]), 'shell': False}
+[1.903025] (-) TimerEvent: {}
+[1.913508] (robot_game) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.003123] (-) TimerEvent: {}
+[2.071680] (robot_game) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.103232] (-) TimerEvent: {}
+[2.106983] (robot_game) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.109815] (robot_game) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.117430] (robot_game) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.129147] (robot_game) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.144736] (robot_game) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.184801] (robot_game) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.186704] (robot_game) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.203327] (-) TimerEvent: {}
+[2.303594] (-) TimerEvent: {}
+[2.325878] (robot_game) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.386621] (robot_game) StdoutLine: {'line': b'-- Found robot_msgs: 0.0.0 (/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake)\n'}
+[2.397000] (robot_game) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.403682] (-) TimerEvent: {}
+[2.412218] (robot_game) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.456752] (robot_game) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.503808] (-) TimerEvent: {}
+[2.604174] (-) TimerEvent: {}
+[2.606367] (robot_game) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.643725] (robot_game) StdoutLine: {'line': b'-- Generating done\n'}
+[2.654474] (robot_game) StdoutLine: {'line': b'-- Build files have been written to: /home/bruithwirr/uni/ros2_ws/build/robot_game\n'}
+[2.693238] (robot_game) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target keyboard_node\x1b[0m\n'}
+[2.693704] (robot_game) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target game_node\x1b[0m\n'}
+[2.694846] (robot_game) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_node\x1b[0m\n'}
+[2.704260] (-) TimerEvent: {}
+[2.721760] (robot_game) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/keyboard_node.dir/src/KeyboardNode.cpp.o\x1b[0m\n'}
+[2.729938] (robot_game) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/game_node.dir/src/ConfigParser.cpp.o\x1b[0m\n'}
+[2.730276] (robot_game) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/game_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp.o\x1b[0m\n'}
+[2.730420] (robot_game) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/game_node.dir/src/GameNode.cpp.o\x1b[0m\n'}
+[2.736850] (robot_game) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp.o\x1b[0m\n'}
+[2.737228] (robot_game) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Robot.cpp.o\x1b[0m\n'}
+[2.737349] (robot_game) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/robot_node.dir/src/ConfigParser.cpp.o\x1b[0m\n'}
+[2.737837] (robot_game) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/robot_node.dir/src/RobotNode.cpp.o\x1b[0m\n'}
+[2.739427] (robot_game) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Canvas.cpp.o\x1b[0m\n'}
+[2.739599] (robot_game) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp.o\x1b[0m\n'}
+[2.804612] (-) TimerEvent: {}
+[2.905009] (-) TimerEvent: {}
+[3.007855] (-) TimerEvent: {}
+[3.108296] (-) TimerEvent: {}
+[3.208747] (-) TimerEvent: {}
+[3.309304] (-) TimerEvent: {}
+[3.409948] (-) TimerEvent: {}
+[3.510498] (-) TimerEvent: {}
+[3.612047] (-) TimerEvent: {}
+[3.712762] (-) TimerEvent: {}
+[3.813895] (-) TimerEvent: {}
+[3.917882] (-) TimerEvent: {}
+[4.018531] (-) TimerEvent: {}
+[4.121879] (-) TimerEvent: {}
+[4.222544] (-) TimerEvent: {}
+[4.323240] (-) TimerEvent: {}
+[4.423877] (-) TimerEvent: {}
+[4.524415] (-) TimerEvent: {}
+[4.624985] (-) TimerEvent: {}
+[4.725890] (-) TimerEvent: {}
+[4.830317] (-) TimerEvent: {}
+[4.930935] (-) TimerEvent: {}
+[5.024866] (robot_game) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:1\x1b[m\x1b[K:\n'}
+[5.025446] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kenvironment::Environment::Environment(const environment::Config&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.025663] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:24:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kenvironment::Environment::resolution_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.025870] (robot_game) StderrLine: {'line': b'   24 |     double \x1b[01;35m\x1b[Kresolution_\x1b[m\x1b[K;\n'}
+[5.026038] (robot_game) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.026199] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:23:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat environment::Environment::map_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.026363] (robot_game) StderrLine: {'line': b'   23 |     cv::Mat \x1b[01;35m\x1b[Kmap_\x1b[m\x1b[K;\n'}
+[5.026504] (robot_game) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.026646] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:7:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.026786] (robot_game) StderrLine: {'line': b'    7 |     \x1b[01;35m\x1b[KEnvironment\x1b[m\x1b[K::Environment(const Config& config)\n'}
+[5.026925] (robot_game) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.031063] (-) TimerEvent: {}
+[5.035911] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry::Point2d> lidar::Lidar::scan(const geometry::RobotState&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.036364] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:17:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kfirst_ray_angle_absolute\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.036558] (robot_game) StderrLine: {'line': b'   17 |         double \x1b[01;35m\x1b[Kfirst_ray_angle_absolute\x1b[m\x1b[K= state.theta+config_.first_ray_angle;\n'}
+[5.036718] (robot_game) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.036889] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:18:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klast_ray_angle_absolute\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.039887] (robot_game) StderrLine: {'line': b'   18 |         double \x1b[01;35m\x1b[Klast_ray_angle_absolute\x1b[m\x1b[K= state.theta+config_.last_ray_angle;\n'}
+[5.040123] (robot_game) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.040282] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:20:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kray_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.040428] (robot_game) StderrLine: {'line': b'   20 |         geometry::Point2d \x1b[01;35m\x1b[Kray_state\x1b[m\x1b[K;\n'}
+[5.040562] (robot_game) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.054089] (robot_game) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:1\x1b[m\x1b[K:\n'}
+[5.054499] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kenvironment::Environment::Environment(const environment::Config&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.054702] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:24:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kenvironment::Environment::resolution_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.054924] (robot_game) StderrLine: {'line': b'   24 |     double \x1b[01;35m\x1b[Kresolution_\x1b[m\x1b[K;\n'}
+[5.055054] (robot_game) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.055153] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:23:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat environment::Environment::map_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.055255] (robot_game) StderrLine: {'line': b'   23 |     cv::Mat \x1b[01;35m\x1b[Kmap_\x1b[m\x1b[K;\n'}
+[5.055363] (robot_game) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.055485] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:7:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.055620] (robot_game) StderrLine: {'line': b'    7 |     \x1b[01;35m\x1b[KEnvironment\x1b[m\x1b[K::Environment(const Config& config)\n'}
+[5.055751] (robot_game) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.133876] (-) TimerEvent: {}
+[5.234361] (-) TimerEvent: {}
+[5.274684] (robot_game) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Robot.cpp:1\x1b[m\x1b[K:\n'}
+[5.275140] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:25:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kgeometry::RobotState::velocity\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.275303] (robot_game) StderrLine: {'line': b'   25 |         geometry::RobotState initial_state = geometry::RobotState{200.0, 200.0, 0.0\x1b[01;35m\x1b[K}\x1b[m\x1b[K,\n'}
+[5.275439] (robot_game) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.335883] (-) TimerEvent: {}
+[5.436346] (-) TimerEvent: {}
+[5.536852] (-) TimerEvent: {}
+[5.637603] (-) TimerEvent: {}
+[5.738431] (-) TimerEvent: {}
+[5.838871] (-) TimerEvent: {}
+[5.939418] (-) TimerEvent: {}
+[6.039861] (-) TimerEvent: {}
+[6.140248] (-) TimerEvent: {}
+[6.240653] (-) TimerEvent: {}
+[6.341068] (-) TimerEvent: {}
+[6.441477] (-) TimerEvent: {}
+[6.541908] (-) TimerEvent: {}
+[6.642320] (-) TimerEvent: {}
+[6.742735] (-) TimerEvent: {}
+[6.843144] (-) TimerEvent: {}
+[6.943556] (-) TimerEvent: {}
+[7.043952] (-) TimerEvent: {}
+[7.144314] (-) TimerEvent: {}
+[7.244692] (-) TimerEvent: {}
+[7.345057] (-) TimerEvent: {}
+[7.445422] (-) TimerEvent: {}
+[7.518649] (robot_game) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/RobotNode.h:9\x1b[m\x1b[K,\n'}
+[7.518907] (robot_game) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:1\x1b[m\x1b[K:\n'}
+[7.518979] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:25:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kgeometry::RobotState::velocity\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.519061] (robot_game) StderrLine: {'line': b'   25 |         geometry::RobotState initial_state = geometry::RobotState{200.0, 200.0, 0.0\x1b[01;35m\x1b[K}\x1b[m\x1b[K,\n'}
+[7.519118] (robot_game) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.545544] (-) TimerEvent: {}
+[7.645852] (-) TimerEvent: {}
+[7.746222] (-) TimerEvent: {}
+[7.846663] (-) TimerEvent: {}
+[7.947014] (-) TimerEvent: {}
+[8.047357] (-) TimerEvent: {}
+[8.147705] (-) TimerEvent: {}
+[8.248072] (-) TimerEvent: {}
+[8.348439] (-) TimerEvent: {}
+[8.372648] (robot_game) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable keyboard_node\x1b[0m\n'}
+[8.448574] (-) TimerEvent: {}
+[8.548954] (-) TimerEvent: {}
+[8.565822] (robot_game) StdoutLine: {'line': b'[ 84%] Built target keyboard_node\n'}
+[8.649070] (-) TimerEvent: {}
+[8.749410] (-) TimerEvent: {}
+[8.850110] (-) TimerEvent: {}
+[8.950741] (-) TimerEvent: {}
+[9.051140] (-) TimerEvent: {}
+[9.151827] (-) TimerEvent: {}
+[9.252211] (-) TimerEvent: {}
+[9.352557] (-) TimerEvent: {}
+[9.452869] (-) TimerEvent: {}
+[9.553264] (-) TimerEvent: {}
+[9.653590] (-) TimerEvent: {}
+[9.753975] (-) TimerEvent: {}
+[9.854312] (-) TimerEvent: {}
+[9.954731] (-) TimerEvent: {}
+[10.055264] (-) TimerEvent: {}
+[10.155625] (-) TimerEvent: {}
+[10.255981] (-) TimerEvent: {}
+[10.356347] (-) TimerEvent: {}
+[10.456695] (-) TimerEvent: {}
+[10.557079] (-) TimerEvent: {}
+[10.657482] (-) TimerEvent: {}
+[10.757862] (-) TimerEvent: {}
+[10.858199] (-) TimerEvent: {}
+[10.958527] (-) TimerEvent: {}
+[11.058855] (-) TimerEvent: {}
+[11.159188] (-) TimerEvent: {}
+[11.259842] (-) TimerEvent: {}
+[11.360180] (-) TimerEvent: {}
+[11.460521] (-) TimerEvent: {}
+[11.560853] (-) TimerEvent: {}
+[11.661188] (-) TimerEvent: {}
+[11.761537] (-) TimerEvent: {}
+[11.861837] (-) TimerEvent: {}
+[11.962156] (-) TimerEvent: {}
+[12.062502] (-) TimerEvent: {}
+[12.162877] (-) TimerEvent: {}
+[12.263264] (-) TimerEvent: {}
+[12.363648] (-) TimerEvent: {}
+[12.464019] (-) TimerEvent: {}
+[12.564346] (-) TimerEvent: {}
+[12.664672] (-) TimerEvent: {}
+[12.765060] (-) TimerEvent: {}
+[12.865398] (-) TimerEvent: {}
+[12.965752] (-) TimerEvent: {}
+[13.066092] (-) TimerEvent: {}
+[13.166408] (-) TimerEvent: {}
+[13.266724] (-) TimerEvent: {}
+[13.367076] (-) TimerEvent: {}
+[13.467415] (-) TimerEvent: {}
+[13.567755] (-) TimerEvent: {}
+[13.668086] (-) TimerEvent: {}
+[13.768410] (-) TimerEvent: {}
+[13.868733] (-) TimerEvent: {}
+[13.969063] (-) TimerEvent: {}
+[14.069381] (-) TimerEvent: {}
+[14.169719] (-) TimerEvent: {}
+[14.270725] (-) TimerEvent: {}
+[14.371223] (-) TimerEvent: {}
+[14.469402] (robot_game) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable game_node\x1b[0m\n'}
+[14.471274] (-) TimerEvent: {}
+[14.571520] (-) TimerEvent: {}
+[14.655446] (robot_game) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_node\x1b[0m\n'}
+[14.671642] (-) TimerEvent: {}
+[14.772020] (-) TimerEvent: {}
+[14.872498] (-) TimerEvent: {}
+[14.972873] (-) TimerEvent: {}
+[15.073327] (-) TimerEvent: {}
+[15.173783] (-) TimerEvent: {}
+[15.269272] (robot_game) StdoutLine: {'line': b'[100%] Built target game_node\n'}
+[15.273821] (-) TimerEvent: {}
+[15.374107] (-) TimerEvent: {}
+[15.474475] (-) TimerEvent: {}
+[15.516305] (robot_game) StdoutLine: {'line': b'[100%] Built target robot_node\n'}
+[15.530488] (robot_game) CommandEnded: {'returncode': 0}
+[15.531305] (robot_game) JobProgress: {'identifier': 'robot_game', 'progress': 'install'}
+[15.531830] (robot_game) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bruithwirr/uni/ros2_ws/build/robot_game'], 'cwd': '/home/bruithwirr/uni/ros2_ws/build/robot_game', 'env': OrderedDict([('TERM_SESSION_ID', '3f479b84-26e9-4237-b38c-ea854e553588'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'bruithwirr'), ('SNAP_COMMON', '/var/snap/clion/common'), ('LC_TIME', 'sk_SK.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SNAP_UID', '1000'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bruithwirr'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/bruithwirr/snap/clion/439'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/clion_clion.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('MANAGERPID', '1693'), ('SYSTEMD_EXEC_PID', '1968'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '439'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2740'), ('COLCON_PREFIX_PATH', '/home/bruithwirr/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'bruithwirr'), ('SNAP_CONTEXT', '1Uw4xdhUbU1X9gqDTpAjmpu3h5-P0EBpfdtNz6Ks4t-v67Ujofs4'), ('JOURNAL_STREAM', '8:18817'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '2026.1.1'), ('USERNAME', 'bruithwirr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'clion'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bruithwirr/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/bruithwirr-HP-EliteBook-835-G8-Notebook-PC:@/tmp/.ICE-unix/1941,unix/bruithwirr-HP-EliteBook-835-G8-Notebook-PC:/tmp/.ICE-unix/1941'), ('INVOCATION_ID', '35f3208ebb3d4178bca3145ff620e5c1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('SNAP_DATA', '/var/snap/clion/439'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion/1968-0-bruithwirr-HP-EliteBook-835-G8-Notebook-PC_TIME21780'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/bruithwirr/snap/clion/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble'), ('SNAP_COOKIE', '1Uw4xdhUbU1X9gqDTpAjmpu3h5-P0EBpfdtNz6Ks4t-v67Ujofs4'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'clion'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bruithwirr/uni/ros2_ws/build/robot_game'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/bruithwirr'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/clion/439'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble')]), 'shell': False}
+[15.541450] (robot_game) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.541672] (robot_game) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/keyboard_node\n'}
+[15.543428] (robot_game) StdoutLine: {'line': b'-- Set runtime path of "/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/keyboard_node" to ""\n'}
+[15.543674] (robot_game) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/robot_node\n'}
+[15.549699] (robot_game) StdoutLine: {'line': b'-- Set runtime path of "/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/robot_node" to ""\n'}
+[15.550064] (robot_game) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/game_node\n'}
+[15.557037] (robot_game) StdoutLine: {'line': b'-- Set runtime path of "/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/game_node" to ""\n'}
+[15.557198] (robot_game) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/launch\n'}
+[15.557257] (robot_game) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/launch/game.launch.py\n'}
+[15.557354] (robot_game) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/rviz\n'}
+[15.557435] (robot_game) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/rviz/rviz_config.rviz\n'}
+[15.557625] (robot_game) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/config\n'}
+[15.557764] (robot_game) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/config/game_config.yaml\n'}
+[15.557975] (robot_game) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/package_run_dependencies/robot_game\n'}
+[15.558207] (robot_game) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/parent_prefix_path/robot_game\n'}
+[15.558290] (robot_game) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/ament_prefix_path.sh\n'}
+[15.558365] (robot_game) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/ament_prefix_path.dsv\n'}
+[15.558560] (robot_game) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/path.sh\n'}
+[15.558630] (robot_game) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/path.dsv\n'}
+[15.558867] (robot_game) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.bash\n'}
+[15.558987] (robot_game) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.sh\n'}
+[15.559049] (robot_game) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.zsh\n'}
+[15.559123] (robot_game) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.dsv\n'}
+[15.559257] (robot_game) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.dsv\n'}
+[15.559490] (robot_game) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/packages/robot_game\n'}
+[15.559582] (robot_game) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/cmake/robot_gameConfig.cmake\n'}
+[15.559667] (robot_game) StdoutLine: {'line': b'-- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/cmake/robot_gameConfig-version.cmake\n'}
+[15.559721] (robot_game) StdoutLine: {'line': b'-- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.xml\n'}
+[15.562518] (robot_game) CommandEnded: {'returncode': 0}
+[15.573172] (robot_game) JobEnded: {'identifier': 'robot_game', 'rc': 0}
+[15.573859] (-) EventReactorShutdown: {}

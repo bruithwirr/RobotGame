@@ -1,0 +1,64 @@
+[0.011s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[0.033s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.138s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.162s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.163s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.168s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.186s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.212s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.213s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.305s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.347s] -- Found robot_msgs: 0.0.0 (/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake)
+[0.357s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.377s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.434s] -- Configuring done
+[0.452s] -- Generating done
+[0.457s] -- Build files have been written to: /home/bruithwirr/uni/ros2_ws/build/robot_game
+[0.493s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp.o[0m
+[0.494s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/RobotNode.cpp.o[0m
+[0.494s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Canvas.cpp.o[0m
+[0.494s] [ 50%] [32mBuilding CXX object CMakeFiles/keyboard_node.dir/src/KeyboardNode.cpp.o[0m
+[0.494s] [ 62%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Robot.cpp.o[0m
+[0.495s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp.o[0m
+[0.555s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KRobotNode.hpp: No such file or directory
+[0.555s]     1 | #include [01;31m[K"RobotNode.hpp"[m[K
+[0.555s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.556s] compilation terminated.
+[0.556s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/KeyboardNode.h: No such file or directory
+[0.556s]     1 | #include [01;31m[K"include/KeyboardNode.h"[m[K
+[0.556s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.556s] compilation terminated.
+[0.556s] gmake[2]: *** [CMakeFiles/robot_node.dir/build.make:76: CMakeFiles/robot_node.dir/src/RobotNode.cpp.o] Error 1
+[0.556s] gmake[2]: *** Waiting for unfinished jobs....
+[0.556s] gmake[2]: *** [CMakeFiles/keyboard_node.dir/build.make:76: CMakeFiles/keyboard_node.dir/src/KeyboardNode.cpp.o] Error 1
+[0.557s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/keyboard_node.dir/all] Error 2
+[0.557s] gmake[1]: *** Waiting for unfinished jobs....
+[1.737s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:1[m[K:
+[1.737s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:[m[K In constructor ‘[01m[Kenvironment::Environment::Environment(const environment::Config&)[m[K’:
+[1.737s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:24:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kenvironment::Environment::resolution_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.737s]    24 |     double [01;35m[Kresolution_[m[K;
+[1.737s]       |            [01;35m[K^~~~~~~~~~~[m[K
+[1.737s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:23:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kcv::Mat environment::Environment::map_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.737s]    23 |     cv::Mat [01;35m[Kmap_[m[K;
+[1.737s]       |             [01;35m[K^~~~[m[K
+[1.737s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:7:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.738s]     7 |     [01;35m[KEnvironment[m[K::Environment(const Config& config)
+[1.738s]       |     [01;35m[K^~~~~~~~~~~[m[K
+[1.739s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Robot.cpp:1[m[K:
+[1.739s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:25:84:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kgeometry::RobotState::velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[1.739s]    25 |         geometry::RobotState initial_state = geometry::RobotState{200.0, 200.0, 0.0[01;35m[K}[m[K,
+[1.739s]       |                                                                                    [01;35m[K^[m[K
+[1.743s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:[m[K In member function ‘[01m[Kstd::vector<geometry::Point2d> lidar::Lidar::scan(const geometry::RobotState&) const[m[K’:
+[1.743s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:17:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfirst_ray_angle_absolute[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.743s]    17 |         double [01;35m[Kfirst_ray_angle_absolute[m[K= state.theta+config_.first_ray_angle;
+[1.743s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.743s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:18:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klast_ray_angle_absolute[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.743s]    18 |         double [01;35m[Klast_ray_angle_absolute[m[K= state.theta+config_.last_ray_angle;
+[1.743s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.743s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:20:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kray_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.743s]    20 |         geometry::Point2d [01;35m[Kray_state[m[K;
+[1.743s]       |                           [01;35m[K^~~~~~~~~[m[K
+[2.227s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_node.dir/all] Error 2
+[2.227s] gmake: *** [Makefile:146: all] Error 2
+[2.230s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12

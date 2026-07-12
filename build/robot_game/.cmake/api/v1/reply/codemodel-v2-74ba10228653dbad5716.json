@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b4c9150d357691577fb6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robot_game",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_node-0ea80ae5e9d76d2bf598.json",
+					"name" : "bot_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "game_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-game_node-9d911182778bd3fbd06b.json",
+					"name" : "game_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard_node-946f18bbfe0c10af7002.json",
+					"name" : "keyboard_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_node-b2d9e24345a20388c2fd.json",
+					"name" : "lidar_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_game_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_game_uninstall-802234039cd80b69cdce.json",
+					"name" : "robot_game_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_node-353e58c256ee99dcf073.json",
+					"name" : "robot_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-551b9c02241378ce812a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bruithwirr/uni/ros2_ws/build/robot_game",
+		"source" : "/home/bruithwirr/uni/ros2_ws/src/robot_game"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

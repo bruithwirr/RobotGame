@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000428] (-) JobUnselected: {'identifier': 'robot_msgs'}
+[0.000527] (-) JobUnselected: {'identifier': 'robot_old'}
+[0.000589] (robot_game) JobQueued: {'identifier': 'robot_game', 'dependencies': OrderedDict()}
+[0.000660] (robot_game) JobStarted: {'identifier': 'robot_game'}
+[0.009395] (robot_game) JobProgress: {'identifier': 'robot_game', 'progress': 'cmake'}
+[0.010274] (robot_game) JobProgress: {'identifier': 'robot_game', 'progress': 'build'}
+[0.011077] (robot_game) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bruithwirr/uni/ros2_ws/build/robot_game', '--', '-j12', '-l12'], 'cwd': '/home/bruithwirr/uni/ros2_ws/build/robot_game', 'env': OrderedDict([('TERM_SESSION_ID', 'ce748ba1-c75f-4aa3-9e39-76ea8d37981f'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'bruithwirr'), ('SNAP_COMMON', '/var/snap/clion/common'), ('LC_TIME', 'sk_SK.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SNAP_UID', '1000'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bruithwirr'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/bruithwirr/snap/clion/439'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/clion_clion.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('MANAGERPID', '1597'), ('SYSTEMD_EXEC_PID', '1781'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '439'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6554'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bruithwirr/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bruithwirr'), ('SNAP_CONTEXT', '1Uw4xdhUbU1X9gqDTpAjmpu3h5-P0EBpfdtNz6Ks4t-v67Ujofs4'), ('JOURNAL_STREAM', '8:8073'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '2026.1.1'), ('USERNAME', 'bruithwirr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'clion'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bruithwirr/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/bruithwirr-HP-EliteBook-835-G8-Notebook-PC:@/tmp/.ICE-unix/1748,unix/bruithwirr-HP-EliteBook-835-G8-Notebook-PC:/tmp/.ICE-unix/1748'), ('INVOCATION_ID', '468c2d71cb974e77a6700c5f08cf02b3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('SNAP_DATA', '/var/snap/clion/439'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('DESKTOP_STARTUP_ID', 'gnome-shell/CLion/1781-2-bruithwirr-HP-EliteBook-835-G8-Notebook-PC_TIME1269325'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9VFMP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/bruithwirr/snap/clion/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SNAP_COOKIE', '1Uw4xdhUbU1X9gqDTpAjmpu3h5-P0EBpfdtNz6Ks4t-v67Ujofs4'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SNAP_NAME', 'clion'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bruithwirr/uni/ros2_ws/build/robot_game'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('SNAP_REAL_HOME', '/home/bruithwirr'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/clion/439'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.043037] (robot_game) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099675] (-) TimerEvent: {}
+[0.174193] (robot_game) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199862] (-) TimerEvent: {}
+[0.200258] (robot_game) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.202177] (robot_game) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.207452] (robot_game) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.216245] (robot_game) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.226974] (robot_game) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.253390] (robot_game) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.254457] (robot_game) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299946] (-) TimerEvent: {}
+[0.355058] (robot_game) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.398587] (robot_game) StdoutLine: {'line': b'-- Found robot_msgs: 0.0.0 (/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake)\n'}
+[0.400008] (-) TimerEvent: {}
+[0.405763] (robot_game) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.428030] (robot_game) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.500123] (-) TimerEvent: {}
+[0.532519] (robot_game) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.554639] (robot_game) StdoutLine: {'line': b'-- Generating done\n'}
+[0.561178] (robot_game) StdoutLine: {'line': b'-- Build files have been written to: /home/bruithwirr/uni/ros2_ws/build/robot_game\n'}
+[0.592764] (robot_game) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target keyboard_node\x1b[0m\n'}
+[0.600208] (-) TimerEvent: {}
+[0.679520] (robot_game) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_node\x1b[0m\n'}
+[0.700338] (-) TimerEvent: {}
+[0.703386] (robot_game) StdoutLine: {'line': b'[ 25%] Built target keyboard_node\n'}
+[0.715934] (robot_game) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Robot.cpp.o\x1b[0m\n'}
+[0.716428] (robot_game) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Canvas.cpp.o\x1b[0m\n'}
+[0.716619] (robot_game) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp.o\x1b[0m\n'}
+[0.716742] (robot_game) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp.o\x1b[0m\n'}
+[0.716832] (robot_game) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/robot_node.dir/src/RobotNode.cpp.o\x1b[0m\n'}
+[0.800533] (-) TimerEvent: {}
+[0.901063] (-) TimerEvent: {}
+[1.001469] (-) TimerEvent: {}
+[1.101886] (-) TimerEvent: {}
+[1.202338] (-) TimerEvent: {}
+[1.302816] (-) TimerEvent: {}
+[1.403274] (-) TimerEvent: {}
+[1.504192] (-) TimerEvent: {}
+[1.604838] (-) TimerEvent: {}
+[1.705289] (-) TimerEvent: {}
+[1.805914] (-) TimerEvent: {}
+[1.906404] (-) TimerEvent: {}
+[2.006856] (-) TimerEvent: {}
+[2.107262] (-) TimerEvent: {}
+[2.207710] (-) TimerEvent: {}
+[2.297923] (robot_game) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Robot.cpp:1\x1b[m\x1b[K:\n'}
+[2.298566] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:25:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kgeometry::RobotState::velocity\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.298803] (robot_game) StderrLine: {'line': b'   25 |         geometry::RobotState initial_state = geometry::RobotState{200.0, 200.0, 0.0\x1b[01;35m\x1b[K}\x1b[m\x1b[K,\n'}
+[2.298966] (robot_game) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.300651] (robot_game) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:1\x1b[m\x1b[K:\n'}
+[2.300832] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kenvironment::Environment::Environment(const environment::Config&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.300953] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:24:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kenvironment::Environment::resolution_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.301054] (robot_game) StderrLine: {'line': b'   24 |     double \x1b[01;35m\x1b[Kresolution_\x1b[m\x1b[K;\n'}
+[2.301145] (robot_game) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.301252] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:23:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat environment::Environment::map_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.301376] (robot_game) StderrLine: {'line': b'   23 |     cv::Mat \x1b[01;35m\x1b[Kmap_\x1b[m\x1b[K;\n'}
+[2.301451] (robot_game) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.301535] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:7:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.301633] (robot_game) StderrLine: {'line': b'    7 |     \x1b[01;35m\x1b[KEnvironment\x1b[m\x1b[K::Environment(const Config& config)\n'}
+[2.301750] (robot_game) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.308532] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<geometry::Point2d> lidar::Lidar::scan(const geometry::RobotState&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.309020] (-) TimerEvent: {}
+[2.309283] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:17:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kfirst_ray_angle_absolute\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.309494] (robot_game) StderrLine: {'line': b'   17 |         double \x1b[01;35m\x1b[Kfirst_ray_angle_absolute\x1b[m\x1b[K= state.theta+config_.first_ray_angle;\n'}
+[2.309648] (robot_game) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.309774] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:18:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klast_ray_angle_absolute\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.309890] (robot_game) StderrLine: {'line': b'   18 |         double \x1b[01;35m\x1b[Klast_ray_angle_absolute\x1b[m\x1b[K= state.theta+config_.last_ray_angle;\n'}
+[2.309975] (robot_game) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.310058] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:20:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kray_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.310173] (robot_game) StderrLine: {'line': b'   20 |         geometry::Point2d \x1b[01;35m\x1b[Kray_state\x1b[m\x1b[K;\n'}
+[2.310288] (robot_game) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.409191] (-) TimerEvent: {}
+[2.509774] (-) TimerEvent: {}
+[2.610344] (-) TimerEvent: {}
+[2.710802] (-) TimerEvent: {}
+[2.811268] (-) TimerEvent: {}
+[2.911894] (-) TimerEvent: {}
+[3.012584] (-) TimerEvent: {}
+[3.113120] (-) TimerEvent: {}
+[3.213670] (-) TimerEvent: {}
+[3.314257] (-) TimerEvent: {}
+[3.414702] (-) TimerEvent: {}
+[3.515029] (-) TimerEvent: {}
+[3.615396] (-) TimerEvent: {}
+[3.715804] (-) TimerEvent: {}
+[3.816272] (-) TimerEvent: {}
+[3.916806] (-) TimerEvent: {}
+[4.017150] (-) TimerEvent: {}
+[4.117504] (-) TimerEvent: {}
+[4.217999] (-) TimerEvent: {}
+[4.318479] (-) TimerEvent: {}
+[4.418963] (-) TimerEvent: {}
+[4.495027] (robot_game) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/RobotNode.h:8\x1b[m\x1b[K,\n'}
+[4.495243] (robot_game) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:1\x1b[m\x1b[K:\n'}
+[4.495317] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:25:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kgeometry::RobotState::velocity\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.495395] (robot_game) StderrLine: {'line': b'   25 |         geometry::RobotState initial_state = geometry::RobotState{200.0, 200.0, 0.0\x1b[01;35m\x1b[K}\x1b[m\x1b[K,\n'}
+[4.495462] (robot_game) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.500989] (robot_game) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:1\x1b[m\x1b[K:\n'}
+[4.501071] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/RobotNode.h:19:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.501129] (robot_game) StderrLine: {'line': b'   19 |         rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr rviz_marker_;\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[4.501190] (robot_game) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.501249] (robot_game) StderrLine: {'line': b'      |                                                                                    \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[4.519104] (-) TimerEvent: {}
+[4.546397] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRobotNode::RobotNode(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.546800] (robot_game) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:17:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[Kgeometry::Twist::angular\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers\x07-Wmissing-field-initializers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.546950] (robot_game) StderrLine: {'line': b'   17 |         geometry::RobotState{200.0, 200.0, 0.0,0.0\x1b[01;35m\x1b[K}\x1b[m\x1b[K,\n'}
+[4.547027] (robot_game) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.619327] (-) TimerEvent: {}
+[4.719742] (-) TimerEvent: {}
+[4.820078] (-) TimerEvent: {}
+[4.920444] (-) TimerEvent: {}
+[5.020765] (-) TimerEvent: {}
+[5.121077] (-) TimerEvent: {}
+[5.221453] (-) TimerEvent: {}
+[5.321798] (-) TimerEvent: {}
+[5.422133] (-) TimerEvent: {}
+[5.522461] (-) TimerEvent: {}
+[5.622778] (-) TimerEvent: {}
+[5.723104] (-) TimerEvent: {}
+[5.823436] (-) TimerEvent: {}
+[5.923780] (-) TimerEvent: {}
+[6.024155] (-) TimerEvent: {}
+[6.124620] (-) TimerEvent: {}
+[6.224929] (-) TimerEvent: {}
+[6.325230] (-) TimerEvent: {}
+[6.425567] (-) TimerEvent: {}
+[6.526014] (-) TimerEvent: {}
+[6.626454] (-) TimerEvent: {}
+[6.727098] (-) TimerEvent: {}
+[6.827796] (-) TimerEvent: {}
+[6.928203] (-) TimerEvent: {}
+[7.028652] (-) TimerEvent: {}
+[7.129187] (-) TimerEvent: {}
+[7.229849] (-) TimerEvent: {}
+[7.330450] (-) TimerEvent: {}
+[7.430830] (-) TimerEvent: {}
+[7.531204] (-) TimerEvent: {}
+[7.631527] (-) TimerEvent: {}
+[7.731885] (-) TimerEvent: {}
+[7.832241] (-) TimerEvent: {}
+[7.932606] (-) TimerEvent: {}
+[8.033303] (-) TimerEvent: {}
+[8.133885] (-) TimerEvent: {}
+[8.234248] (-) TimerEvent: {}
+[8.334548] (-) TimerEvent: {}
+[8.434887] (-) TimerEvent: {}
+[8.535338] (-) TimerEvent: {}
+[8.635661] (-) TimerEvent: {}
+[8.736073] (-) TimerEvent: {}
+[8.836555] (-) TimerEvent: {}
+[8.936865] (-) TimerEvent: {}
+[9.037183] (-) TimerEvent: {}
+[9.137486] (-) TimerEvent: {}
+[9.237804] (-) TimerEvent: {}
+[9.338131] (-) TimerEvent: {}
+[9.438441] (-) TimerEvent: {}
+[9.538741] (-) TimerEvent: {}
+[9.639048] (-) TimerEvent: {}
+[9.739405] (-) TimerEvent: {}
+[9.839815] (-) TimerEvent: {}
+[9.940152] (-) TimerEvent: {}
+[10.040556] (-) TimerEvent: {}
+[10.140879] (-) TimerEvent: {}
+[10.241232] (-) TimerEvent: {}
+[10.341710] (-) TimerEvent: {}
+[10.442111] (-) TimerEvent: {}
+[10.542437] (-) TimerEvent: {}
+[10.642882] (-) TimerEvent: {}
+[10.743487] (-) TimerEvent: {}
+[10.844210] (robot_game) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_node\x1b[0m\n'}
+[10.844537] (-) TimerEvent: {}
+[10.944880] (-) TimerEvent: {}
+[11.045493] (-) TimerEvent: {}
+[11.146071] (-) TimerEvent: {}
+[11.246578] (-) TimerEvent: {}
+[11.346896] (-) TimerEvent: {}
+[11.447220] (-) TimerEvent: {}
+[11.547530] (-) TimerEvent: {}
+[11.647833] (-) TimerEvent: {}
+[11.741930] (robot_game) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/robot_node.dir/src/RobotNode.cpp.o: in function `RobotNode::RobotNode(int)':\n"}
+[11.742213] (robot_game) StderrLine: {'line': b"RobotNode.cpp:(.text+0x3ba): undefined reference to `RobotNode::rcv_message(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)'\n"}
+[11.747904] (-) TimerEvent: {}
+[11.838536] (robot_game) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[11.840837] (robot_game) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_node.dir/build.make:309: robot_node] Error 1\n'}
+[11.841200] (robot_game) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_node.dir/all] Error 2\n'}
+[11.841476] (robot_game) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.844363] (robot_game) CommandEnded: {'returncode': 2}
+[11.848009] (-) TimerEvent: {}
+[11.855027] (robot_game) JobEnded: {'identifier': 'robot_game', 'rc': 2}
+[11.865686] (-) EventReactorShutdown: {}

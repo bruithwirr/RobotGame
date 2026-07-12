@@ -1,0 +1,19 @@
+[0.029s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[0.149s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.185s] [ 12%] Built target keyboard_node
+[0.186s] [ 31%] Built target bot_node
+[0.194s] [ 37%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/RobotNode.cpp.o[0m
+[0.218s] [ 62%] Built target game_node
+[6.136s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/RobotNode.h:9[m[K,
+[6.136s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:1[m[K:
+[6.136s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:25:84:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kgeometry::RobotState::velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[6.136s]    25 |         geometry::RobotState initial_state = geometry::RobotState{200.0, 200.0, 0.0[01;35m[K}[m[K,
+[6.136s]       |                                                                                    [01;35m[K^[m[K
+[6.229s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:[m[K In member function ‘[01m[Kvoid RobotNode::publishState()[m[K’:
+[6.230s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:107:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcfg_[m[K’ was not declared in this scope
+[6.230s]   107 |     if (!(robot_id_ == 1 && [01;31m[Kcfg_[m[K.game_mode == "duel_bot")) {
+[6.230s]       |                             [01;31m[K^~~~[m[K
+[9.381s] gmake[2]: *** [CMakeFiles/robot_node.dir/build.make:76: CMakeFiles/robot_node.dir/src/RobotNode.cpp.o] Error 1
+[9.382s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/robot_node.dir/all] Error 2
+[9.382s] gmake: *** [Makefile:146: all] Error 2
+[9.385s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '2': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12

@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': AMENT_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target keyboard_node[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target robot_node[0m
+[0.073s] [ 25%] Built target keyboard_node
+[0.080s] [ 37%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/RobotNode.cpp.o[0m
+[2.707s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/RobotNode.h:9[m[K,
+[2.707s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:1[m[K:
+[2.707s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:25:84:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kgeometry::RobotState::velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.707s]    25 |         geometry::RobotState initial_state = geometry::RobotState{200.0, 200.0, 0.0[01;35m[K}[m[K,
+[2.707s]       |                                                                                    [01;35m[K^[m[K
+[9.285s] [ 50%] [32m[1mLinking CXX executable robot_node[0m
+[10.010s] [100%] Built target robot_node
+[10.025s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '0': AMENT_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[10.026s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': AMENT_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_game
+[10.033s] -- Install configuration: ""
+[10.033s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/keyboard_node
+[10.034s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/robot_node
+[10.040s] -- Set runtime path of "/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/robot_node" to ""
+[10.040s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/package_run_dependencies/robot_game
+[10.040s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/parent_prefix_path/robot_game
+[10.040s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/ament_prefix_path.sh
+[10.040s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/ament_prefix_path.dsv
+[10.040s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/path.sh
+[10.040s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/path.dsv
+[10.040s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.bash
+[10.040s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.sh
+[10.040s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.zsh
+[10.040s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.dsv
+[10.040s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.dsv
+[10.041s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/packages/robot_game
+[10.041s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/cmake/robot_gameConfig.cmake
+[10.041s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/cmake/robot_gameConfig-version.cmake
+[10.041s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.xml
+[10.043s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '0': AMENT_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_game

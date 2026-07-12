@@ -1,0 +1,116 @@
+[0.010s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[0.038s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.156s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.181s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.183s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.188s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.234s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.235s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.333s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.377s] -- Found robot_msgs: 0.0.0 (/home/bruithwirr/uni/ros2_ws/install/robot_msgs/share/robot_msgs/cmake)
+[0.385s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.395s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.426s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.535s] -- Configuring done
+[0.563s] -- Generating done
+[0.577s] -- Build files have been written to: /home/bruithwirr/uni/ros2_ws/build/robot_game
+[0.607s] [35m[1mConsolidate compiler generated dependencies of target bot_node[0m
+[0.607s] [35m[1mConsolidate compiler generated dependencies of target keyboard_node[0m
+[0.608s] [35m[1mConsolidate compiler generated dependencies of target robot_node[0m
+[0.608s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.630s] [ 18%] [32mBuilding CXX object CMakeFiles/bot_node.dir/src/ConfigParser.cpp.o[0m
+[0.630s] [ 18%] [32mBuilding CXX object CMakeFiles/keyboard_node.dir/src/KeyboardNode.cpp.o[0m
+[0.630s] [ 18%] [32mBuilding CXX object CMakeFiles/bot_node.dir/src/BotNode.cpp.o[0m
+[0.641s] [ 25%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/GameNode.cpp.o[0m
+[0.641s] [ 31%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp.o[0m
+[0.642s] [ 43%] [32mBuilding CXX object CMakeFiles/game_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp.o[0m
+[0.642s] [ 43%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/ConfigParser.cpp.o[0m
+[0.642s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/ConfigParser.cpp.o[0m
+[0.642s] [ 56%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp.o[0m
+[0.643s] [ 62%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Robot.cpp.o[0m
+[0.648s] [ 68%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/RobotNode.cpp.o[0m
+[0.654s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_node.dir/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Canvas.cpp.o[0m
+[3.079s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:1[m[K:
+[3.079s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:[m[K In constructor ‘[01m[Kenvironment::Environment::Environment(const environment::Config&)[m[K’:
+[3.079s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:24:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kenvironment::Environment::resolution_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.079s]    24 |     double [01;35m[Kresolution_[m[K;
+[3.079s]       |            [01;35m[K^~~~~~~~~~~[m[K
+[3.079s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:23:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kcv::Mat environment::Environment::map_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.079s]    23 |     cv::Mat [01;35m[Kmap_[m[K;
+[3.083s]       |             [01;35m[K^~~~[m[K
+[3.083s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:7:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.083s]     7 |     [01;35m[KEnvironment[m[K::Environment(const Config& config)
+[3.083s]       |     [01;35m[K^~~~~~~~~~~[m[K
+[3.187s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:1[m[K:
+[3.188s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:[m[K In constructor ‘[01m[Kenvironment::Environment::Environment(const environment::Config&)[m[K’:
+[3.188s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:24:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kenvironment::Environment::resolution_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.188s]    24 |     double [01;35m[Kresolution_[m[K;
+[3.188s]       |            [01;35m[K^~~~~~~~~~~[m[K
+[3.188s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:23:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kcv::Mat environment::Environment::map_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.188s]    23 |     cv::Mat [01;35m[Kmap_[m[K;
+[3.189s]       |             [01;35m[K^~~~[m[K
+[3.189s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:7:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[3.189s]     7 |     [01;35m[KEnvironment[m[K::Environment(const Config& config)
+[3.189s]       |     [01;35m[K^~~~~~~~~~~[m[K
+[3.257s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Robot.cpp:1[m[K:
+[3.257s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:25:84:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kgeometry::RobotState::velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[3.257s]    25 |         geometry::RobotState initial_state = geometry::RobotState{200.0, 200.0, 0.0[01;35m[K}[m[K,
+[3.258s]       |                                                                                    [01;35m[K^[m[K
+[3.368s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:[m[K In member function ‘[01m[Kstd::vector<geometry::Point2d> lidar::Lidar::scan(const geometry::RobotState&) const[m[K’:
+[3.368s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:17:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfirst_ray_angle_absolute[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.368s]    17 |         double [01;35m[Kfirst_ray_angle_absolute[m[K= state.theta+config_.first_ray_angle;
+[3.368s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.369s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:18:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klast_ray_angle_absolute[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.369s]    18 |         double [01;35m[Klast_ray_angle_absolute[m[K= state.theta+config_.last_ray_angle;
+[3.369s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.369s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Lidar.cpp:20:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kray_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.369s]    20 |         geometry::Point2d [01;35m[Kray_state[m[K;
+[3.369s]       |                           [01;35m[K^~~~~~~~~[m[K
+[5.610s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/RobotNode.h:9[m[K,
+[5.610s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:1[m[K:
+[5.610s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:25:84:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kgeometry::RobotState::velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[5.610s]    25 |         geometry::RobotState initial_state = geometry::RobotState{200.0, 200.0, 0.0[01;35m[K}[m[K,
+[5.610s]       |                                                                                    [01;35m[K^[m[K
+[6.501s] [ 81%] [32m[1mLinking CXX executable keyboard_node[0m
+[6.716s] [ 81%] Built target keyboard_node
+[13.482s] [ 87%] [32m[1mLinking CXX executable game_node[0m
+[13.530s] [ 93%] [32m[1mLinking CXX executable robot_node[0m
+[13.607s] [100%] [32m[1mLinking CXX executable bot_node[0m
+[14.336s] [100%] Built target bot_node
+[14.424s] [100%] Built target game_node
+[14.544s] [100%] Built target robot_node
+[14.556s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '0': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[14.557s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_game
+[14.565s] -- Install configuration: ""
+[14.565s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/keyboard_node
+[14.567s] -- Set runtime path of "/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/keyboard_node" to ""
+[14.567s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/robot_node
+[14.573s] -- Set runtime path of "/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/robot_node" to ""
+[14.574s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/game_node
+[14.579s] -- Set runtime path of "/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/game_node" to ""
+[14.579s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/bot_node
+[14.587s] -- Set runtime path of "/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/bot_node" to ""
+[14.587s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/launch
+[14.587s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/launch/game.launch.py
+[14.587s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/rviz
+[14.588s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/rviz/rviz_config.rviz
+[14.588s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/config
+[14.588s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/config/game_config.yaml
+[14.588s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/package_run_dependencies/robot_game
+[14.588s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/parent_prefix_path/robot_game
+[14.588s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/ament_prefix_path.sh
+[14.588s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/ament_prefix_path.dsv
+[14.589s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/path.sh
+[14.589s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/path.dsv
+[14.589s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.bash
+[14.589s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.sh
+[14.589s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.zsh
+[14.589s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.dsv
+[14.589s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.dsv
+[14.590s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/packages/robot_game
+[14.590s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/cmake/robot_gameConfig.cmake
+[14.590s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/cmake/robot_gameConfig-version.cmake
+[14.590s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.xml
+[14.592s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '0': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_game

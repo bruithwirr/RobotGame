@@ -1,0 +1,37 @@
+[0.015s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[0.104s] [ 12%] [32mBuilding CXX object CMakeFiles/bot_node.dir/src/BotNode.cpp.o[0m
+[0.104s] [ 18%] Built target keyboard_node
+[0.105s] [ 43%] Built target game_node
+[0.107s] [ 87%] Built target robot_node
+[12.056s] [ 93%] [32m[1mLinking CXX executable bot_node[0m
+[12.570s] [100%] Built target bot_node
+[12.583s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '0': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[12.585s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_game
+[12.593s] -- Install configuration: ""
+[12.594s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/keyboard_node
+[12.594s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/robot_node
+[12.594s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/game_node
+[12.595s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/bot_node
+[12.602s] -- Set runtime path of "/home/bruithwirr/uni/ros2_ws/install/robot_game/lib/robot_game/bot_node" to ""
+[12.602s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/launch
+[12.603s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/launch/game.launch.py
+[12.603s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/rviz
+[12.603s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/rviz/rviz_config.rviz
+[12.603s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/config
+[12.603s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/config/game_config.yaml
+[12.603s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/package_run_dependencies/robot_game
+[12.603s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/parent_prefix_path/robot_game
+[12.603s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/ament_prefix_path.sh
+[12.603s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/ament_prefix_path.dsv
+[12.603s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/path.sh
+[12.604s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/environment/path.dsv
+[12.604s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.bash
+[12.604s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.sh
+[12.604s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.zsh
+[12.604s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/local_setup.dsv
+[12.604s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.dsv
+[12.604s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/ament_index/resource_index/packages/robot_game
+[12.604s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/cmake/robot_gameConfig.cmake
+[12.604s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/cmake/robot_gameConfig-version.cmake
+[12.604s] -- Up-to-date: /home/bruithwirr/uni/ros2_ws/install/robot_game/share/robot_game/package.xml
+[12.606s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '0': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_game

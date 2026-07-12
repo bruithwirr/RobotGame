@@ -1,0 +1,47 @@
+[0.013s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_old': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bruithwirr/uni/ros2_ws/src/robot_old -DCMAKE_INSTALL_PREFIX=/home/bruithwirr/uni/ros2_ws/install/robot_old
+[0.114s] -- The C compiler identification is GNU 11.4.0
+[0.202s] -- The CXX compiler identification is GNU 11.4.0
+[0.211s] -- Detecting C compiler ABI info
+[0.278s] -- Detecting C compiler ABI info - done
+[0.284s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.365s] -- Detecting C compile features
+[0.366s] -- Detecting C compile features - done
+[0.371s] -- Detecting CXX compiler ABI info
+[0.449s] -- Detecting CXX compiler ABI info - done
+[0.454s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.455s] -- Detecting CXX compile features
+[0.455s] -- Detecting CXX compile features - done
+[0.458s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.596s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.679s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.749s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.749s] -- Configured cppcheck include dirs: 
+[0.749s] -- Configured cppcheck exclude dirs and/or files: 
+[0.751s] -- Added test 'lint_cmake' to check CMake code style
+[0.753s] -- Added test 'uncrustify' to check C / C++ code style
+[0.753s] -- Configured uncrustify additional arguments: 
+[0.754s] -- Added test 'xmllint' to check XML markup files
+[0.755s] -- Configuring done
+[0.758s] -- Generating done
+[0.760s] -- Build files have been written to: /home/bruithwirr/uni/ros2_ws/build/robot_old
+[0.764s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_old' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bruithwirr/uni/ros2_ws/src/robot_old -DCMAKE_INSTALL_PREFIX=/home/bruithwirr/uni/ros2_ws/install/robot_old
+[0.766s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_old': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_old -- -j12 -l12
+[0.804s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_old' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_old -- -j12 -l12
+[0.805s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_old': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_old
+[0.812s] -- Install configuration: ""
+[0.812s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/ament_index/resource_index/package_run_dependencies/robot_old
+[0.813s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/ament_index/resource_index/parent_prefix_path/robot_old
+[0.813s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/environment/ament_prefix_path.sh
+[0.813s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/environment/ament_prefix_path.dsv
+[0.813s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/environment/path.sh
+[0.813s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/environment/path.dsv
+[0.814s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/local_setup.bash
+[0.814s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/local_setup.sh
+[0.814s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/local_setup.zsh
+[0.814s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/local_setup.dsv
+[0.814s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/package.dsv
+[0.814s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/ament_index/resource_index/packages/robot_old
+[0.815s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/cmake/robot_oldConfig.cmake
+[0.815s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/cmake/robot_oldConfig-version.cmake
+[0.815s] -- Installing: /home/bruithwirr/uni/ros2_ws/install/robot_old/share/robot_old/package.xml
+[0.817s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_old' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bruithwirr/uni/ros2_ws/build/robot_old

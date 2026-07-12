@@ -1,0 +1,53 @@
+[0.014s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_msgs -- -j12 -l12
+[0.037s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.151s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.156s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.522s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.677s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.969s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.990s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.010s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.010s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.010s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.070s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.083s] -- Added test 'lint_cmake' to check CMake code style
+[1.084s] -- Added test 'xmllint' to check XML markup files
+[1.087s] -- Configuring done
+[1.119s] -- Generating done
+[1.129s] -- Build files have been written to: /home/bruithwirr/uni/ros2_ws/build/robot_msgs
+[1.163s] [  3%] Built target robot_msgs__cpp
+[1.163s] [  6%] Built target robot_msgs__rs
+[1.173s] [  6%] Built target ament_cmake_python_copy_robot_msgs
+[1.256s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_generator_c[0m
+[1.256s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_cpp[0m
+[1.256s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.256s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.269s] [ 34%] Built target robot_msgs__rosidl_generator_c
+[1.269s] [ 34%] Built target robot_msgs__rosidl_typesupport_cpp
+[1.269s] [ 34%] Built target robot_msgs__rosidl_typesupport_introspection_cpp
+[1.269s] [ 43%] Built target robot_msgs__rosidl_typesupport_fastrtps_cpp
+[1.284s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_c[0m
+[1.284s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_introspection_c[0m
+[1.284s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.296s] [ 59%] Built target robot_msgs__rosidl_typesupport_c
+[1.296s] [ 62%] Built target robot_msgs__rosidl_typesupport_introspection_c
+[1.296s] [ 71%] Built target robot_msgs__rosidl_typesupport_fastrtps_c
+[1.316s] [ 71%] Built target robot_msgs
+[1.337s] [ 75%] Built target robot_msgs__py
+[1.349s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_generator_py[0m
+[1.363s] [ 81%] Built target robot_msgs__rosidl_generator_py
+[1.370s] running egg_info
+[1.370s] writing robot_msgs.egg-info/PKG-INFO
+[1.371s] writing dependency_links to robot_msgs.egg-info/dependency_links.txt
+[1.371s] writing top-level names to robot_msgs.egg-info/top_level.txt
+[1.372s] reading manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[1.373s] writing manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[1.373s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_c__pyext[0m
+[1.373s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.373s] [35m[1mConsolidate compiler generated dependencies of target robot_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.388s] [100%] Built target robot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.389s] [100%] Built target robot_msgs__rosidl_typesupport_introspection_c__pyext
+[1.389s] [100%] Built target robot_msgs__rosidl_typesupport_c__pyext
+[1.400s] [100%] Built target ament_cmake_python_build_robot_msgs_egg

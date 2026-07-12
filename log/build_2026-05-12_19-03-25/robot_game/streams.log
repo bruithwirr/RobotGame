@@ -1,0 +1,42 @@
+[0.009s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_game': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target bot_node[0m
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target keyboard_node[0m
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target game_node[0m
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target robot_node[0m
+[0.084s] [ 12%] Built target keyboard_node
+[0.090s] [ 25%] [32mBuilding CXX object CMakeFiles/bot_node.dir/src/BotNode.cpp.o[0m
+[0.090s] [ 43%] Built target game_node
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/RobotNode.cpp.o[0m
+[2.377s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/BotNode.cpp:[m[K In constructor ‘[01m[KBotNode::BotNode()[m[K’:
+[2.377s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/BotNode.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstation_x_[m[K’ was not declared in this scope
+[2.377s]    15 |         [01;31m[Kstation_x_[m[K  = cfg.station.x;
+[2.377s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.381s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/BotNode.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstation_y_[m[K’ was not declared in this scope
+[2.381s]    16 |         [01;31m[Kstation_y_[m[K  = cfg.station.y;
+[2.382s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.409s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/BotNode.cpp:[m[K In member function ‘[01m[Kvoid BotNode::timerCallback()[m[K’:
+[2.409s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/BotNode.cpp:82:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstation_x_[m[K’ was not declared in this scope
+[2.409s]    82 |         target_x = [01;31m[Kstation_x_[m[K;
+[2.409s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.414s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/BotNode.cpp:83:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstation_y_[m[K’ was not declared in this scope
+[2.414s]    83 |         target_y = [01;31m[Kstation_y_[m[K;
+[2.414s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.861s] In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/RobotNode.h:9[m[K,
+[2.861s]                  from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:1[m[K:
+[2.861s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:25:84:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kgeometry::RobotState::velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.861s]    25 |         geometry::RobotState initial_state = geometry::RobotState{200.0, 200.0, 0.0[01;35m[K}[m[K,
+[2.861s]       |                                                                                    [01;35m[K^[m[K
+[2.923s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:[m[K In constructor ‘[01m[KRobotNode::RobotNode(int)[m[K’:
+[2.923s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_x[m[K’ was not declared in this scope
+[2.923s]    40 |     [01;31m[Kstart_x[m[K = cfg.robot.start_positions[robot_id_].x;
+[2.923s]       |     [01;31m[K^~~~~~~[m[K
+[2.928s] [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_y[m[K’ was not declared in this scope
+[2.928s]    41 |     [01;31m[Kstart_y[m[K = cfg.robot.start_positions[robot_id_].y;
+[2.928s]       |     [01;31m[K^~~~~~~[m[K
+[5.422s] gmake[2]: *** [CMakeFiles/bot_node.dir/build.make:76: CMakeFiles/bot_node.dir/src/BotNode.cpp.o] Error 1
+[5.422s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/bot_node.dir/all] Error 2
+[5.422s] gmake[1]: *** Waiting for unfinished jobs....
+[5.765s] gmake[2]: *** [CMakeFiles/robot_node.dir/build.make:76: CMakeFiles/robot_node.dir/src/RobotNode.cpp.o] Error 1
+[5.765s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/robot_node.dir/all] Error 2
+[5.765s] gmake: *** [Makefile:146: all] Error 2
+[5.768s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_game' returned '2': CMAKE_PREFIX_PATH=/home/bruithwirr/uni/ros2_ws/install/robot_msgs:/home/bruithwirr/uni/ros2_ws/install/robot_old:/home/bruithwirr/uni/ros2_ws/install/robot_game:/opt/ros/humble /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_game -- -j12 -l12

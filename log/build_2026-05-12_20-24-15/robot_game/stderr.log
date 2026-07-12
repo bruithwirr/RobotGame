@@ -1,0 +1,27 @@
+In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:1[m[K:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:[m[K In constructor ‘[01m[Kenvironment::Environment::Environment(const environment::Config&)[m[K’:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:24:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kenvironment::Environment::resolution_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   24 |     double [01;35m[Kresolution_[m[K;
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/environment/Environment.h:23:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kcv::Mat environment::Environment::map_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   23 |     cv::Mat [01;35m[Kmap_[m[K;
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Environment.cpp:7:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    7 |     [01;35m[KEnvironment[m[K::Environment(const Config& config)
+      |     [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/include/RobotNode.h:9[m[K,
+                 from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/RobotNode.cpp:1[m[K:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:25:84:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kgeometry::RobotState::velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   25 |         geometry::RobotState initial_state = geometry::RobotState{200.0, 200.0, 0.0[01;35m[K}[m[K,
+      |                                                                                    [01;35m[K^[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/LidarNode.cpp:[m[K In constructor ‘[01m[KLidarNode::LidarNode(int)[m[K’:
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/LidarNode.cpp:30:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct lidar::Config[m[K’ has no member named ‘[01m[Kmax_distance[m[K’
+   30 |     lidar_config.[01;31m[Kmax_distance[m[K    = MAX_DIST_PX;
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/LidarNode.cpp:31:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct lidar::Config[m[K’ has no member named ‘[01m[Knum_rays[m[K’
+   31 |     lidar_config.[01;31m[Knum_rays[m[K        = NUM_RAYS;
+      |                  [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lidar_node.dir/build.make:76: CMakeFiles/lidar_node.dir/src/LidarNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/lidar_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

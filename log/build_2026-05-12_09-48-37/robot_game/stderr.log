@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:25 (tadd_executable):
+  Unknown CMake command "tadd_executable".
+
+[0m
+gmake: *** [Makefile:460: cmake_check_build_system] Error 1

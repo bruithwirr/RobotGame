@@ -1,0 +1,35 @@
+[0.015s] Invoking command in '/home/bruithwirr/uni/ros2_ws/build/robot_msgs': /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_msgs -- -j12 -l12
+[0.036s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.146s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.150s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.339s] Error parsing '/home/bruithwirr/uni/ros2_ws/src/robot_msgs/package.xml':
+[0.392s] Traceback (most recent call last):
+[0.392s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.392s]     main()
+[0.392s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.392s]     raise e
+[0.392s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.392s]     package = parse_package_string(
+[0.392s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[0.393s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[0.393s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/bruithwirr/uni/ros2_ws/src/robot_msgs/package.xml':
+[0.393s] Error(s):
+[0.393s] - The manifest of package "robot_msgs" (with format version 3) must not contain the following tags: exec_dependent
+[0.405s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.405s]   execute_process(/usr/bin/python3
+[0.405s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.405s]   /home/bruithwirr/uni/ros2_ws/src/robot_msgs/package.xml
+[0.405s]   /home/bruithwirr/uni/ros2_ws/build/robot_msgs/ament_cmake_core/package.cmake)
+[0.405s]   returned error code 1
+[0.405s] Call Stack (most recent call first):
+[0.406s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.406s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.406s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.406s] 
+[0.406s] [0m
+[0.406s] -- Configuring incomplete, errors occurred!
+[0.406s] See also "/home/bruithwirr/uni/ros2_ws/build/robot_msgs/CMakeFiles/CMakeOutput.log".
+[0.411s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.414s] Invoked command in '/home/bruithwirr/uni/ros2_ws/build/robot_msgs' returned '2': /usr/bin/cmake --build /home/bruithwirr/uni/ros2_ws/build/robot_msgs -- -j12 -l12

@@ -1,0 +1,32 @@
+
+
+# Game mode: "duel" = PvP, "duel_bot" = PvE
+game_mode: "duel_bot"
+
+map:
+  filename: "/home/bruithwirr/uni/ros2_ws/src/robot_old/resources/opk-map.png"
+  resolution: 0.05
+
+robot:
+  radius: 10.0
+  max_capacity: 5
+  start_positions:
+    - x: 200.0
+      y: 200.0
+    - x: 400.0
+      y: 200.0
+
+waste:
+  count: 10
+  min_radius: 8.0
+  max_radius: 15.0
+  types:
+    - paper
+    - plastic
+    - glass
+
+station:
+  x: 300.0
+  y: 300.0
+  radius: 25.0
+
