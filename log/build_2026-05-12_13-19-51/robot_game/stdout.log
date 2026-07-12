@@ -1,5 +1,0 @@
-[ 15%] Built target keyboard_node
-[ 30%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/ConfigParser.cpp.o[0m
-[ 38%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/ConfigParser.cpp.o[0m
-[ 38%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/RobotNode.cpp.o[0m
-[ 46%] [32mBuilding CXX object CMakeFiles/game_node.dir/src/GameNode.cpp.o[0m

@@ -1,7 +1,0 @@
-[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:[m[K In constructor ‘[01m[KKeyboardNode::KeyboardNode()[m[K’:
-[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/src/KeyboardNode.cpp:16:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
-   16 |     [01;31m[K)[m[K;
-      |     [01;31m[K^[m[K
-gmake[2]: *** [CMakeFiles/keyboard_node.dir/build.make:76: CMakeFiles/keyboard_node.dir/src/KeyboardNode.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/keyboard_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

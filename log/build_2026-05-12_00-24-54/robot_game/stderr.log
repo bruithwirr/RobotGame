@@ -1,4 +1,0 @@
-In file included from [01m[K/home/bruithwirr/uni/ros2_ws/src/robot_old/src/Robot.cpp:1[m[K:
-[01m[K/home/bruithwirr/uni/ros2_ws/src/robot_game/../robot_old/include/robot/Robot.h:25:84:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kgeometry::RobotState::velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
-   25 |         geometry::RobotState initial_state = geometry::RobotState{200.0, 200.0, 0.0[01;35m[K}[m[K,
-      |                                                                                    [01;35m[K^[m[K

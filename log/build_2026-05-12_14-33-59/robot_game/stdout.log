@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target robot_node[0m
-[ 12%] Built target keyboard_node
-[ 31%] Built target bot_node
-[ 56%] Built target game_node
-[ 62%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/RobotNode.cpp.o[0m
